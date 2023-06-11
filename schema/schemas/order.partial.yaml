@@ -1,0 +1,36 @@
+# Schema for Order object
+type: object
+properties:
+    cart:
+        type: array
+        description: Корзина товара
+        items: 
+            type: object
+            properties: 
+                product_id:
+                    type: string
+                    description: Идентификатор товара
+                quantity:
+                    type: integer
+                    description: Количество товара
+                price:
+                    type: number
+                    description: Стоимость товара на момент покупки
+        example: 
+          - product_id: 507f191e810c19729de860ea
+            quantity: 7
+            price: 100.00
+          - product_id: 507f191e810c19729de860e2
+            quantity: 2
+            price: 599.00
+    user:
+        type: string
+        description: Идентификатор покупателя
+        example: 00000020f51bb4362eee2a4d
+    address:
+        type: object
+        $ref: address.yaml
+    comment:
+        type: string
+        description: Комментарий к заказу
+        example: Дополнительная информация от покупателя.

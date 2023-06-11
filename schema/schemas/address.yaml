@@ -1,0 +1,10 @@
+# Schema for Address object
+allOf: 
+  - $ref: address.partial.yaml
+
+  - type: object
+    properties:
+        id:
+            type: string
+            description: Уникальный идентификатор адрес. Генерируется сервером при добавлении.
+            example: "4446452e48fc"

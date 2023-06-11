@@ -1,0 +1,20 @@
+# Specification for /product/{id}
+parameters:
+    - $ref: '../parameters/productId.yaml'
+get:
+    tags: 
+        -  Товары
+    summary: Подробно о товаре
+    description: Позволяет получить подробную информацию об одном товаре.
+    operationId: getProduct
+    security: []
+
+    responses:
+        200:
+            description: A product to be found
+            content:
+                application/json:
+                    schema:
+                        $ref: "../schemas/product.yaml"
+        404:
+            $ref: ../responses/_index.yaml#/404

@@ -1,0 +1,67 @@
+# Specification for /product/{id}
+parameters:
+    - name: id
+      description: Идентификатор пользователя
+      required: true
+      in: path
+      schema: 
+        type: string
+        example: current
+get:
+    tags: 
+        -  Пользователи
+    summary: Подробно о пользователе
+    description: Получить инфморацию о пользователе
+    operationId: getUser
+    security:
+        - OTPSchema: []
+      
+
+    responses:
+        200:
+            description: Найденный пользователь
+            content:
+                application/json:
+                    schema:
+                        $ref: ../schemas/user.yaml
+        
+        401:
+            $ref: ../responses/_index.yaml#/401
+        403:
+            $ref: ../responses/_index.yaml#/403
+        404:
+            $ref: ../responses/_index.yaml#/404
+
+patch: 
+    tags: 
+        -  Пользователи
+    summary: Обновить информацию о пользователе
+    description: Позволяет частично обновлять информацию о пользователе
+    operationId: patchUser
+    security: 
+        -  OTPSchema: []
+    requestBody:
+        description: Обновление пользователя
+        required: true
+        content:
+            "application/json":
+                schema:
+                    $ref: ../schemas/user.partial.yaml
+                examples:
+                    user:
+                        value:
+                            firstName: John
+    responses: 
+        200:
+            description: Пользователь обновлен
+            content:
+                application/json:
+                    schema:
+                        $ref: ../schemas/user.yaml
+        
+        401:
+            $ref: ../responses/_index.yaml#/401
+        403:
+            $ref: ../responses/_index.yaml#/403
+        404:
+            $ref: ../responses/_index.yaml#/404

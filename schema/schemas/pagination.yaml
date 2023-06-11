@@ -1,0 +1,5 @@
+X-Total-Count: 
+  schema: 
+      type: integer
+      example: 8873
+  description: Общее количество элементов, доступное для пагинации.

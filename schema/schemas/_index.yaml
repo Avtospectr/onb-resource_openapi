@@ -1,0 +1,18 @@
+product:
+    $ref: product.yaml
+products:
+    $ref: products.yaml
+user:
+    $ref: user.yaml
+userPartial:
+    $ref: user.partial.yaml
+error:
+    $ref: error.yaml
+addressPartial:
+    $ref: address.partial.yaml
+address:
+    $ref: address.yaml
+addresses:
+    $ref: addresses.yaml
+order:
+    $ref: order.yaml

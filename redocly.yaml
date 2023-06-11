@@ -1,0 +1,19 @@
+# See https://redocly.com/docs/cli/configuration/ for more information.
+apis:
+  onb@v1: 
+    root: schema/index.yaml
+extends:
+  - recommended
+rules:
+  no-unused-components: error
+theme:
+  openapi:
+    htmlTemplate: ./dist/index.html
+    theme:
+      colors:
+        primary:
+          main: "#f00"
+    generateCodeSamples:
+      languages:  # Array of language config objects; indicates in which languages to generate code samples.
+        - lang: curl
+        - lang: JavaScript

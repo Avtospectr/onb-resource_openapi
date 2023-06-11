@@ -1,0 +1,63 @@
+# Specification for /user
+parameters:
+    - name: id
+      description: Идентификатор пользователя
+      in: path
+      required: true
+      schema: 
+        type: string
+        example: current
+post:
+    tags: 
+        -  Пользователи
+    summary: Добавить адрес
+    description: Добавляет адрес пользователя в базу данных
+    operationId: addAddress
+    security: 
+        - OTPSchema: []
+
+    requestBody:
+        description: Добавление нового адреса
+        required: true
+        content:
+            "application/json":
+                schema:
+                    $ref: ../schemas/_index.yaml#/addressPartial
+    responses:
+        201:
+            description: Добавленный адрес
+            content:
+                application/json:
+                    schema:
+                        $ref: "../schemas/address.yaml"
+        401:
+            $ref: ../responses/_index.yaml#/401
+        403:
+            $ref: ../responses/_index.yaml#/403
+
+
+get:
+    tags: 
+        -  Пользователи
+        
+    summary: Список адресов
+    description: Получить список адресов пользователя
+    operationId: getAddresses
+    security: 
+        -  OTPSchema: []
+
+    responses:
+        200:
+            description: Список адресов
+            content:
+                application/json:
+                    schema:
+                        $ref: ../schemas/addresses.yaml
+        204:
+            description: Адреса отсутствуют
+        401:
+            $ref: ../responses/_index.yaml#/401
+        403:
+            $ref: ../responses/_index.yaml#/403
+        404:
+            $ref: ../responses/_index.yaml#/404

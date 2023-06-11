@@ -1,0 +1,61 @@
+# Specification for /order
+post:
+    tags: 
+        -  Заказы
+    summary: Создать новый заказ
+    description: Добавляет новый заказ в базу данных.
+    operationId: addOrder
+    security: 
+        -  OTPSchema: []
+
+    requestBody:
+        description: Создание нового заказа
+        required: true
+        content:
+            "application/json":
+                schema:
+                    $ref: ../schemas/order.partial.yaml
+    responses:
+        201:
+            description: Созданный заказ
+            content:
+                application/json:
+                    schema:
+                        $ref: ../schemas/order.yaml
+        
+        
+        401:
+            $ref: ../responses/_index.yaml#/401
+        403:
+            $ref: ../responses/_index.yaml#/403
+
+
+get: 
+    tags: 
+        -  Заказы
+    parameters: 
+      - $ref: ../parameters/limit.yaml
+      - $ref: ../parameters/offset.yaml
+      - $ref: ../parameters/sort.yaml
+      - $ref: ../parameters/order.yaml
+    summary: Список заказов
+    description: Получить список заказов. Для пользователя приложения будут выводится только его заказы.
+    operationId: getOrders
+    security: 
+        -  OTPSchema: []
+    responses:
+        200:
+            description: Список заказов
+            content:
+                application/json:
+                    schema:
+                        $ref: ../schemas/orders.yaml
+        
+
+        204:
+            description: Заказы отсутствуют
+        401:
+            $ref: ../responses/_index.yaml#/401
+        403:
+            $ref: ../responses/_index.yaml#/403
+  

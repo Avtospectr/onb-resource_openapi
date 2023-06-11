@@ -1,0 +1,7 @@
+name: _limit
+in: query
+description: Максимальное количетсво товаров в ответе
+schema: 
+    type: integer
+    default: 10
+example: 10

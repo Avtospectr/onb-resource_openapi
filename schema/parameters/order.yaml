@@ -1,0 +1,10 @@
+name: _order
+in: query
+description: Порядок сортировки
+schema: 
+    type: string
+    enum: 
+        - asc
+        - desc
+    default: asc
+example: asc

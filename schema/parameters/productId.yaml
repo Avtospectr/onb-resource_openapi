@@ -1,0 +1,8 @@
+# Specification for product.id parameter
+name: id
+description: The unique identifier of the product
+in: path
+required: true
+schema:
+    type: string
+    example: "9b944cf4-0337-43f2-a1ae-4446452e48fc"

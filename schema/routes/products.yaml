@@ -1,0 +1,62 @@
+# Specification for /product
+post:
+    tags: 
+        -  Товары
+    summary: Добавить новый товар
+    description: Добавляет товар в базу данных.
+    operationId: addProduct
+    security: 
+        -  OTPSchema: []
+
+    requestBody:
+        description: Creating new product
+        required: true
+        content:
+            "application/json":
+                schema:
+                    $ref: ../schemas/product.partial.yaml
+    responses:
+        201:
+            description: A product to be returned
+            content:
+                application/json:
+                    schema:
+                        $ref: "../schemas/product.yaml"
+        
+        401:
+            $ref: ../responses/_index.yaml#/401
+        403:
+            $ref: ../responses/_index.yaml#/403
+
+get:
+    tags: 
+        -  Товары
+    parameters: 
+      - $ref: ../parameters/fields.yaml
+      - $ref: ../parameters/limit.yaml
+      - $ref: ../parameters/offset.yaml
+      - $ref: ../parameters/sort.yaml
+      - $ref: ../parameters/order.yaml
+
+        
+    summary: Список товаров
+    description: Получить список товаров
+    operationId: getProducts
+    security: []
+
+    responses:
+        "200":
+            description: List of products
+            headers:
+                $ref: ../schemas/pagination.yaml
+                
+            content:
+                application/json:
+                    schema:
+                        $ref: "../schemas/products.yaml"
+        "404":
+            description: Can't find anything
+            content:
+                application/json:
+                    schema:
+                        $ref: '../schemas/error.yaml'

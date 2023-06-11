@@ -1,0 +1,38 @@
+# Specification for /product/{id}
+post:
+    tags: 
+        -  Пользователи
+    summary: Добавить нового пользователя
+    description: Добавляет пользователя в базу данных.
+    operationId: adduser
+    security: 
+        -  OTPSchema: []
+
+    requestBody:
+        description: Создание нового пользователя
+        required: true
+        content:
+            "application/json":
+                schema:
+                    $ref: ../schemas/user.yaml
+    responses:
+        "201":
+            description: Созданный пользователь
+            content:
+                application/json:
+                    schema:
+                        $ref: "../schemas/user.yaml"
+                    examples:
+                        user:
+                            value:
+                                id: "9b944cf4-0337-43f2-a1ae-4446452e48fc"
+                                firstName: ""
+                                lastName: ""
+                                email: ""
+                                phone: "+71234567890"
+        
+        
+        401:
+            $ref: ../responses/_index.yaml#/401
+        403:
+            $ref: ../responses/_index.yaml#/403

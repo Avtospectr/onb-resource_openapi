@@ -1,0 +1,15 @@
+# Schema for Product object
+allOf: 
+  -  $ref: user.partial.yaml
+  - type: object
+    required:
+        - phone
+    properties:
+        id:
+            type: string
+            description: Уникальный идентификатор пользователя. Генерируется сервером при регистрации.
+            example: 9b944cf4-0337-43f2-a1ae-4446452e48fc
+        phone:
+            type: string
+            description: Телефон
+            example: "+79995553750"

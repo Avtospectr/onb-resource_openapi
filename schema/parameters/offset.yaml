@@ -1,0 +1,7 @@
+name: _offset
+in: query
+description: Количество товаров которое необходимо пропустить
+schema: 
+    type: integer
+    default: 0
+example: 10

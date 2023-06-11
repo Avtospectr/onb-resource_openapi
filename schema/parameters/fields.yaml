@@ -1,0 +1,9 @@
+name: _fields
+in: query
+description: Список полей, которые необходимо вернуть
+schema: 
+    type: array
+    items: 
+      type: string
+    default: []
+example: [id,stock]

@@ -1,0 +1,60 @@
+openapi: 3.0.0
+
+info:
+    title: ONB Master API
+    description: Спецификаация API для бекенда ONB Express
+    version: 0.1.0
+    license:
+        name: Apache 2.0
+        url: http://www.apache.org/licenses/LICENSE-2.0.html
+
+servers:
+    - url: https://onbexpress.ru/api/rest
+      description: Production Server
+    - url: http://localhost:3000/api
+      description: Development Server
+    
+tags: 
+    - name: Товары
+      description: Ендпоинты для работы с товарами
+    - name: Пользователи
+      description: Ендпоинты для работы с информацией о пользователе
+    - name: Заказы
+      description: Ендпоинты для работы с заказами
+
+paths:
+    /product:
+        $ref: routes/products.yaml
+
+    /product/{id}:
+        $ref: routes/product.yaml
+    
+    /user:
+        $ref: routes/users.yaml
+    
+    /user/{id}:
+        $ref: routes/user.yaml
+    
+    /user/{id}/address:
+        $ref: routes/addresses.yaml
+
+    /user/{id}/address/{addressId}:
+        $ref: routes/address.yaml
+
+    /order:
+        $ref: routes/orders.yaml
+    
+    
+        
+
+
+components:
+    parameters:
+        $ref: './parameters/_index.yaml'
+    schemas:
+        $ref: './schemas/_index.yaml'
+    responses: 
+        $ref: './responses/_index.yaml'
+    securitySchemes: 
+        $ref: 'security.yaml'
+                

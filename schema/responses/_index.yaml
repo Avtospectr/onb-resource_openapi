@@ -1,0 +1,18 @@
+404:
+  description: Can't find anything
+  content:
+      application/json:
+          schema:
+              $ref: '../schemas/error.yaml'
+401:
+  description: Not authenticated
+  content:
+    application/json:
+      schema:
+        $ref: '../schemas/error.yaml'
+403:
+  description: Access token does not have the required scope
+  content:
+    application/json:
+      schema:
+        $ref: '../schemas/error.yaml'              

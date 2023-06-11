@@ -1,0 +1,8 @@
+type: object
+required:
+    - message
+properties:
+    message:
+        description: Текстовое сообщение с описанием ошибки
+        type: string
+        example: Пример ошибки

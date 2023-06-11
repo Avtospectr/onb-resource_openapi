@@ -1,0 +1,29 @@
+# Schema for Order object
+allOf: 
+  - type: object
+    properties:
+        id:
+            type: string
+            description: Уникальный идентификатор заказа. Генерируется сервером при создании заказа.
+            example: "507f191e810c19729de860ea"
+        createdAt:
+            type: string
+            format: timestamp
+            description: Время создания заказа.
+            example: 2021-11-17T03:19:56.186Z
+        updatedAt:
+            type: string
+            format: timestamp
+            description: Время обновления заказа.
+            example: 2021-11-17T03:19:56.186Z
+        status:
+            type: string
+            enum: [ created, pending, in_delivery, canceled, finished ]
+            description: Статус заказа
+            example: created
+        payment:
+            type: string
+            enum: [ pending, approved, declined ]
+            description: Статус оплаты
+            example: pending
+  - $ref: order.partial.yaml
