@@ -1,5 +1,5 @@
 OTPSchema:
   type: http
   description: |
-    Для получения токена нужно использовать [API сервера авторизации](https://avtospectr.github.io/onb-auth_api)
+    Для получения токена нужно использовать [API сервера авторизации](https://avtospectr.github.io/onb-auth_openapi/)
   scheme: bearer
