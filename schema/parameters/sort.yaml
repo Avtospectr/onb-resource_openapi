@@ -3,5 +3,5 @@ in: query
 description: Поле по которому товары будут отсортированы
 schema: 
     type: string
-    default: rating
+    default: rate
 example: createdAt
