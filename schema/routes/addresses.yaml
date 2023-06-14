@@ -55,6 +55,10 @@ get:
                         $ref: ../schemas/addresses.yaml
         204:
             description: Адреса отсутствуют
+            content: 
+                application/json: 
+                    example: []
+                      
         401:
             $ref: ../responses/_index.yaml#/401
         403:
