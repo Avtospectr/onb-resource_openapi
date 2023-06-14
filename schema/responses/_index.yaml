@@ -15,4 +15,10 @@
   content:
     application/json:
       schema:
+        $ref: '../schemas/error.yaml'             
+400:
+  description: Ошибка в запросе
+  content:
+    application/json:
+      schema:
         $ref: '../schemas/error.yaml'              

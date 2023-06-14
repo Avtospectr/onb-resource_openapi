@@ -28,6 +28,8 @@ post:
             $ref: ../responses/_index.yaml#/401
         403:
             $ref: ../responses/_index.yaml#/403
+        400:
+            $ref: ../responses/_index.yaml#/400
 
 
 get:
