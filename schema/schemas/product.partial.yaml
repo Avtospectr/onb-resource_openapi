@@ -8,7 +8,15 @@ properties:
     eid:
         type: string
         description: Уникальный идентификатор товара в системе поставщика.
-        example: "a0229858-ace1-4ed0-b239-1da1b88b1bec"
+        example: "647b9b262498c742e48ea22b"
+    sku:
+        type: string
+        description: Артикул товара
+        example: A78563S
+    weight:
+        type: number
+        description: Вес товара для службы доставки
+        example: 32.023
     title:
         type: string
         description: Наименование товара.
@@ -22,9 +30,9 @@ properties:
         description: Старая цена.
         example: 820.00
         default: null
-    weight:
+    rate:
         type: number
-        description: Значимость товара для продавца. Используется для сортировки.
+        description: Значимость товара для продавца. Может использоваться для сортировки.
         example: 200
     category:
         type: string

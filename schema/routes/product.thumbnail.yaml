@@ -1,0 +1,74 @@
+# Specification for /user
+parameters:
+    - name: id
+      description: Идентификатор товара
+      in: path
+      required: true
+      schema: 
+        type: string
+        example: 647b9b262498c742e48ea22b
+
+
+get:
+    tags: 
+        -  Товары
+    summary: Главное изображение
+    description: Эндпоинт для получения главного изображения товара
+    operationId: getthumbnail
+    security: []
+
+    responses:
+        200:
+            description: Изображение товара
+            content:
+                image/*:
+                    schema: 
+                        type: string
+                        format: binary
+        404:
+            $ref: ../responses/_index.yaml#/404
+        
+put:
+    tags: 
+        -  Товары
+    summary: Обновить главное изображение
+    description: Эндпоинт для загрузки главного изображения товара
+    operationId: setthumbnail
+    security: 
+        -  OTPSchema: []
+
+    requestBody:
+        description: Изображение товара
+        required: true
+        content:
+            image/*:
+                schema:
+                    type: string
+                    format: binary
+    responses:
+        200:
+            description: Изображение обновлено
+        401:
+            $ref: ../responses/_index.yaml#/401
+        403:
+            $ref: ../responses/_index.yaml#/403
+
+delete:
+    tags: 
+        -  Товары
+        
+    summary: Удалить главное изображение
+    description: Эндпоинт для удаления изображения
+    operationId: deletethumbnail
+    security: 
+        -  OTPSchema: []
+
+    responses:
+        200:
+            description: Картинка удалена
+        401:
+            $ref: ../responses/_index.yaml#/401
+        403:
+            $ref: ../responses/_index.yaml#/403
+        404:
+            $ref: ../responses/_index.yaml#/404

@@ -28,6 +28,15 @@ paths:
 
     /product/{id}:
         $ref: routes/product.yaml
+
+    /product/{id}/thumbnail:
+        $ref: routes/product.thumbnail.yaml
+    
+    /product/{id}/image:
+        $ref: routes/product.images.yaml
+    
+    /product/{id}/image/{imageId}:
+        $ref: routes/product.image.yaml
     
     /user:
         $ref: routes/users.yaml

@@ -1,0 +1,66 @@
+# Specification for /user
+parameters:
+    - name: id
+      description: Идентификатор товара
+      in: path
+      required: true
+      schema: 
+        type: string
+        example: 647b9b262498c742e48ea22b
+
+
+get:
+    tags: 
+        -  Товары
+    summary: Список дополнительных изображений товара
+    description: Эндпоинт для получения списка дополнительных изображений
+    operationId: getproductimages
+    security: []
+
+    responses:
+        200:
+            description: Список изображений
+            content:
+                application/json:
+                    schema: 
+                        type: array
+                        items: 
+                            type: string
+                    examples: 
+                        list: 
+                            value: 
+                                - /product/647b9b262498c742e48ea22b/image/1
+                                - /product/647b9b262498c742e48ea22b/image/2
+                                - /product/647b9b262498c742e48ea22b/image/3
+        204:
+            description: Нет изображений
+            content: 
+                application/json: 
+                    example: []
+        404:
+            $ref: ../responses/_index.yaml#/404
+        
+post:
+    tags: 
+        -  Товары
+    summary: Добавить изображение товара
+    description: Эндпоинт для добавления изображения товара
+    operationId: addproductimage
+    security: 
+        -  OTPSchema: []
+
+    requestBody:
+        description: Изображение товара
+        required: true
+        content:
+            image/*:
+                schema:
+                    type: string
+                    format: binary
+    responses:
+        201:
+            description: Изображение добавлено
+        401:
+            $ref: ../responses/_index.yaml#/401
+        403:
+            $ref: ../responses/_index.yaml#/403
