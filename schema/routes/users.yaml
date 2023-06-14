@@ -3,7 +3,9 @@ post:
     tags: 
         -  Пользователи
     summary: Добавить нового пользователя
-    description: Добавляет пользователя в базу данных.
+    description: |
+        Добавляет пользователя в базу данных. Этот эндпоинт используется системой после аутентификации нового пользователя через СМС. У мобильного приложения не будет к нему доступа. 
+        Для сохранения информации о пользователе (имя, дата рождения и т.д.) нужно использовать ендпоинт [PATCH /user/{id}](#patch-/user/-id-)
     operationId: adduser
     security: 
         -  OTPSchema: []
@@ -14,7 +16,14 @@ post:
         content:
             "application/json":
                 schema:
-                    $ref: ../schemas/user.yaml
+                    allOf: 
+                        - $ref: ../schemas/user.partial.yaml
+                        - type: object
+                          properties: 
+                            phone:
+                                type: string
+                                description: Телефон
+                                example: "+79995553750"
     responses:
         "201":
             description: Созданный пользователь
@@ -25,7 +34,7 @@ post:
                     examples:
                         user:
                             value:
-                                id: "9b944cf4-0337-43f2-a1ae-4446452e48fc"
+                                id: "647b8803ae697d4eee1ab5d4"
                                 firstName: ""
                                 lastName: ""
                                 email: ""
