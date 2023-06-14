@@ -1,12 +1,6 @@
 # Specification for /user
 parameters:
-    - name: id
-      description: Идентификатор пользователя
-      in: path
-      required: true
-      schema: 
-        type: string
-        example: current
+    - $ref: '../parameters/productId.yaml'
 post:
     tags: 
         -  Пользователи
