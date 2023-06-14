@@ -22,10 +22,6 @@ properties:
         description: Старая цена.
         example: 820.00
         default: null
-    stock:
-        type: integer
-        description: Количество товара на складе доступное для заказа.
-        example: 18
     weight:
         type: number
         description: Значимость товара для продавца. Используется для сортировки.

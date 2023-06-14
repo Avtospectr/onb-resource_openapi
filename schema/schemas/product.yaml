@@ -6,6 +6,11 @@ allOf:
             type: string
             description: Уникальный идентификатор товара. Генерируется сервером при создании товара.
             example: "9b944cf4-0337-43f2-a1ae-4446452e48fc"
+        stock:
+            type: integer
+            description: Количество товара на складе доступное для заказа.
+            example: 18
+            readOnly: true
         createdAt:
             type: string
             format: timestamp
