@@ -5,7 +5,7 @@ allOf:
         id:
             type: string
             description: Уникальный идентификатор товара. Генерируется сервером при создании товара.
-            example: "9b944cf4-0337-43f2-a1ae-4446452e48fc"
+            example: "647b9b262498c742e48ea22b"
         stock:
             type: integer
             description: Количество товара на складе доступное для заказа.
@@ -19,13 +19,13 @@ allOf:
         thumbnail:
             type: string
             description: Ссылка на главное изображение товара.
-            example: https://onbexpress.ru/assets/products/87sfd87g6sg9sfd.webp
+            example: https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/thumbnail
         images:
             type: array
             description: Массив с дополнительными изображениями товара.
             items:
                 type: string
             example: 
-                - https://onbexpress.ru/assets/products/87sfd87g6sg9sfd-2.webp
-                - https://onbexpress.ru/assets/products/87sfd87g6sg9sfd-3.webp
+                - https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/image/1
+                - https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/image/2
   - $ref: product.partial.yaml
