@@ -27,6 +27,7 @@ properties:
         example: 779.00
     oldPrice:
         type: number
+        nullable: true
         description: Старая цена.
         example: 820.00
         default: null
