@@ -9,9 +9,9 @@ info:
         url: http://www.apache.org/licenses/LICENSE-2.0.html
 
 servers:
-    - url: https://onbexpress.ru/api/rest
+    - url: https://api.onbexpress.ru/rest
       description: Production Server
-    - url: https://mock.onbexpress.ru/api
+    - url: https://mock.onbexpress.ru/api/rest
       description: Mock Server
     
 tags: 
