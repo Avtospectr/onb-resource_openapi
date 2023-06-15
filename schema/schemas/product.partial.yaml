@@ -62,6 +62,7 @@ properties:
             "Объем": "1л"
     badge:
         type: object
+        nullable: true
         properties: 
             type: 
                 type: string
