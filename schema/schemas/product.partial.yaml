@@ -8,7 +8,7 @@ properties:
     eid:
         type: string
         description: Уникальный идентификатор товара в системе поставщика.
-        example: "647b9b262498c742e48ea22b"
+        example: "UT-00025383"
     sku:
         type: string
         description: Артикул товара
