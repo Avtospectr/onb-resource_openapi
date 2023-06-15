@@ -11,8 +11,8 @@ info:
 servers:
     - url: https://onbexpress.ru/api/rest
       description: Production Server
-    - url: http://localhost:3000/api
-      description: Development Server
+    - url: https://mock.onbexpress.ru/api
+      description: Mock Server
     
 tags: 
     - name: Товары
