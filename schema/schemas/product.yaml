@@ -19,13 +19,13 @@ allOf:
         thumbnail:
             type: string
             description: Ссылка на главное изображение товара.
-            example: https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/thumbnail
+            example: https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/thumbnail.png
         images:
             type: array
             description: Массив с дополнительными изображениями товара.
             items:
                 type: string
             example: 
-                - https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/image/1
-                - https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/image/2
+                - https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/image/1.png
+                - https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/image/2.png
   - $ref: product.partial.yaml
