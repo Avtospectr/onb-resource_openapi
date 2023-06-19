@@ -1,10 +1,10 @@
 - id: '138257'
   stock: 28
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/05/125-мм-Р600.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р600.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
   eid: UT-00028292
   sku: '60012510'
   weight: 1
@@ -28,10 +28,10 @@
 - id: '138258'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/05/125-мм-Р800.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р800.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
   eid: UT-00028294
   sku: '80012510'
   weight: 7
@@ -53,10 +53,10 @@
 - id: '138252'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/05/125-мм-Р80.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р80.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/05/абразив-125-5-шт-1.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/05/125-мм.-5-шт.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-125-5-шт-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-5-шт.jpg
   eid: UT-00028287
   sku: '801255'
   weight: 3
@@ -78,10 +78,10 @@
 - id: '138253'
   stock: 64
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/05/125-мм-Р120.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р120.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
   eid: UT-00028288
   sku: '12012510'
   weight: 8
@@ -105,10 +105,10 @@
 - id: '138254'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/05/125-мм-Р240.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р240.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
   eid: UT-00028289
   sku: '24012510'
   weight: 1
@@ -132,10 +132,10 @@
 - id: '138255'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/05/125-мм-Р320.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р320.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
   eid: UT-00028290
   sku: '32012510'
   weight: 3
@@ -157,10 +157,10 @@
 - id: '138256'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/05/125-мм-Р500.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р500.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
   eid: UT-00028291
   sku: '50012510'
   weight: 4
@@ -184,10 +184,10 @@
 - id: '138251'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/05/125-мм-Р60.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р60.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/05/125-мм.-5-шт.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/05/абразив-125-5-шт-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-5-шт.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-125-5-шт-1.jpg
   eid: UT-00028285
   sku: '601255'
   weight: 3
@@ -211,11 +211,11 @@
 - id: '138057'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/05/салфетки-2.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/салфетки-2.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/05/салфетки-4.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/05/салфетки-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/05/салфетки.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/салфетки-4.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/салфетки-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/05/салфетки.jpg
   eid: UT-00027753
   sku: '201523'
   weight: 10
@@ -239,10 +239,10 @@
 - id: '136989'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/04/проявка-1.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/04/проявка-1.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/04/проявка-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/04/проявка-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/проявка-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/проявка-2.jpg
   eid: UT-00027737
   sku: '005001'
   weight: 6
@@ -265,13 +265,13 @@
 - id: '136988'
   stock: 29
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/04/бобер-75-мм-4.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/04/бобер-75-мм-4.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/04/бобер-75-мм.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/04/бобер-75-мм-2.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/04/бобер-75-мм-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/04/бобер-1-1.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/04/бобер2-1-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-75-мм.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-75-мм-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-75-мм-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-1-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/бобер2-1-1.jpg
   eid: UT-00027739
   sku: '080875'
   weight: 5
@@ -294,12 +294,12 @@
 - id: '136987'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/04/бобер-50-мм-3.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/04/бобер-50-мм-3.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/04/бобер-50-мм.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/04/бобер-50-мм-2.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/04/бобер2-.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/04/бобер-.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-50-мм.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-50-мм-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/бобер2-.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-.jpg
   eid: UT-00027738
   sku: '080850'
   weight: 2
@@ -322,11 +322,11 @@
 - id: '136732'
   stock: 77
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/04/шпат-02кг-2.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/04/шпат-02кг-2.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/04/шпат-02кг-1.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/04/шпат-02кг-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/04/шпат-02кг-4.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/шпат-02кг-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/шпат-02кг-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/шпат-02кг-4.jpg
   eid: UT-00027490
   sku: '7102'
   weight: 1
@@ -348,11 +348,11 @@
 - id: '136733'
   stock: 3
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/04/шпат-1кг.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/04/шпат-1кг.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/04/шпат-1кг-4.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/04/шпат-1кг-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/04/шпат-1кг-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/шпат-1кг-4.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/шпат-1кг-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/04/шпат-1кг-2.jpg
   eid: UT-00027528
   sku: '71011'
   weight: 2
@@ -374,13 +374,13 @@
 - id: '136254'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/03/Герметик-для-стекол-1.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/Герметик-для-стекол-1.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/03/Герметик-для-стекол-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/Герметик-для-стекол-2.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/Снимок-экрана-2023-04-08-в-12.18.16.png
-  - https://avtospectr.local/wp-content/uploads/2023/03/Снимок-экрана-2023-04-08-в-12.16.22.png
-  - https://avtospectr.local/wp-content/uploads/2023/03/Снимок-экрана-2023-04-08-в-12.12.04.png
+  - https://avtospectr.com/wp-content/uploads/2023/03/Герметик-для-стекол-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Герметик-для-стекол-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Снимок-экрана-2023-04-08-в-12.18.16.png
+  - https://avtospectr.com/wp-content/uploads/2023/03/Снимок-экрана-2023-04-08-в-12.16.22.png
+  - https://avtospectr.com/wp-content/uploads/2023/03/Снимок-экрана-2023-04-08-в-12.12.04.png
   eid: UT-00027481
   sku: '7141'
   weight: 4
@@ -407,11 +407,11 @@
 - id: '136253'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/03/кислотник-1.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/кислотник-1.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/03/кислотник-4.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/кислотник-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/кислотник-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/кислотник-4.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/кислотник-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/кислотник-2.jpg
   eid: UT-00027756
   sku: '110505'
   weight: 5
@@ -437,16 +437,16 @@
 - id: '136251'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/03/скотч-брайт-серый-4.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-4.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/03/скотч-брайт-серый-9.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/скотч-брайт-серый-8.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/скотч-брайт-серый-7.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/скотч-брайт-серый-6.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/скотч-брайт-серый-5.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/скотч-брайт-серый-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/скотч-брайт-серый-2.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/скотч-брайт-серый-1-.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-9.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-8.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-7.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-6.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-5.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-1-.jpg
   eid: UT-00026024
   sku: '0607'
   weight: 3
@@ -473,12 +473,12 @@
 - id: '136189'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/03/Ш-2.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/Ш-2.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/03/8.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/Ш-1.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/7.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/6-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/8.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Ш-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/7.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/6-2.jpg
   eid: UT-00027968
   sku: 4040B
   weight: 7
@@ -503,11 +503,11 @@
 - id: '135328'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/03/герметик-серый-1.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/герметик-серый-1.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/03/герметик-серый-4.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/герметик-серый-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/герметик-серый-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/герметик-серый-4.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/герметик-серый-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/герметик-серый-2.jpg
   eid: UT-00027736
   sku: 7040G
   weight: 9
@@ -529,16 +529,16 @@
 - id: '135327'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/03/пленка-3.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/пленка-3.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/03/пленка-8.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/пленка-7.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/пленка-6.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/пленка-5.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/пленка-4.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/пленка-3-1.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/пленка-2.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/пленка-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-8.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-7.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-6.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-5.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-4.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-3-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-1.jpg
   eid: UT-00027489
   sku: '041023'
   weight: 3
@@ -562,13 +562,13 @@
 - id: '135323'
   stock: 19
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/03/обезжириватель-нью-1.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-1.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/03/обезжириватель-нью-6.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/обезжириватель-нью-5.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/обезжириватель-нью-4.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/обезжириватель-нью-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/обезжириватель-нью-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-6.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-5.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-4.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-2.jpg
   eid: UT-00026379
   sku: '33323'
   weight: 3
@@ -591,19 +591,19 @@
 - id: '134646'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/03/Ситечко-3.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-3.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/03/Ситечко-11.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/Ситечко-10.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/Ситечко-9.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/Ситечко-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/Ситечко-8.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/Ситечко-7.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/Ситечко-6.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/Ситечко-5.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/Ситечко-4.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/Ситечко-1.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/03/Ситечко-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-11.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-10.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-9.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-8.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-7.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-6.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-5.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-4.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-1.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-2.jpg
   eid: UT-00026706
   sku: '2311'
   weight: 6
@@ -631,7 +631,7 @@
 - id: '134581'
   stock: 80
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/03/3010-01-1L.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/3010-01-1L.jpg
   images: []
   eid: UT-00013117
   sku: 3010-01-1L
@@ -656,11 +656,11 @@
 - id: '132925'
   stock: 26
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/02/под-кисть-1.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/02/под-кисть-1.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/02/под-кисть-4.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/02/под-кисть-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/02/под-кисть-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/02/под-кисть-4.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/02/под-кисть-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/02/под-кисть-2.jpg
   eid: UT-00027473
   sku: '704001'
   weight: 3
@@ -682,17 +682,17 @@
 - id: '129302'
   stock: 53
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2023/01/5-16.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2023/01/5-16.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2023/01/10-6.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/01/9-7.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/01/8-7.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/01/1-27.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/01/2-27.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/01/7-12.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/01/6-14.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/01/4-20.jpg
-  - https://avtospectr.local/wp-content/uploads/2023/01/3-22.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/01/10-6.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/01/9-7.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/01/8-7.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/01/1-27.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/01/2-27.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/01/7-12.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/01/6-14.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/01/4-20.jpg
+  - https://avtospectr.com/wp-content/uploads/2023/01/3-22.jpg
   eid: UT-00026707
   sku: '2411'
   weight: 1
@@ -722,17 +722,17 @@
 - id: '122307'
   stock: 71
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2022/12/вамв.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2022/12/вамв.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2022/12/10-8.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/12/9-7.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/12/8-8.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/12/7-10.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/12/2-13.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/12/3-12.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/12/4-12.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/12/5-12.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/12/6-11.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/12/10-8.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/12/9-7.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/12/8-8.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/12/7-10.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/12/2-13.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/12/3-12.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/12/4-12.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/12/5-12.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/12/6-11.jpg
   eid: UT-00013554
   sku: 4010-01-5L
   weight: 9
@@ -764,17 +764,17 @@
 - id: '121375'
   stock: 15
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2022/11/пылеед-1.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2022/11/пылеед-1.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2022/11/пылеед-6.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пылеед-5.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пылеед-4.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пылеед-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пылеед-2.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пылеед-7.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пылеед-8.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пылеед-10.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пылеед-9.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-6.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-5.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-4.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-7.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-8.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-10.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-9.jpg
   eid: UT-00026512
   sku: '2212'
   weight: 2
@@ -795,17 +795,17 @@
 - id: '121373'
   stock: 30
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2022/11/пыли-нет.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2022/11/пыли-нет-2.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пыли-нет-3.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пыли-нет-4.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пыли-нет-5.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пыли-нет-6.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пыли-нет-7.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пыли-нет-8.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пыли-нет-9.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/пыли-нет-10.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-2.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-3.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-4.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-5.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-6.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-7.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-8.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-9.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-10.jpg
   eid: UT-00026511
   sku: '2211'
   weight: 6
@@ -826,16 +826,16 @@
 - id: '118894'
   stock: 80
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2022/11/1.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2022/11/1.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2022/11/9.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/8.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/7.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/6.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/5.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/4.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/3.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/11/2.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/9.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/8.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/7.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/6.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/5.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/4.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/3.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/11/2.jpg
   eid: UT-00025660
   sku: BLUE2
   weight: 8
@@ -858,19 +858,19 @@
 - id: '112338'
   stock: 0
   createdAt: '2023-06-09T03:19:56.186Z'
-  thumbnail: https://avtospectr.local/wp-content/uploads/2022/10/1.jpg
+  thumbnail: https://avtospectr.com/wp-content/uploads/2022/10/1.jpg
   images:
-  - https://avtospectr.local/wp-content/uploads/2022/10/2.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/10/3.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/10/4.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/10/5.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/10/6.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/10/7.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/10/8.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/10/9.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/10/10.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/10/11.jpg
-  - https://avtospectr.local/wp-content/uploads/2022/10/12.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/10/2.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/10/3.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/10/4.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/10/5.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/10/6.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/10/7.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/10/8.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/10/9.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/10/10.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/10/11.jpg
+  - https://avtospectr.com/wp-content/uploads/2022/10/12.jpg
   eid: UT-00025659
   sku: BLUE1
   weight: 3
