@@ -54,6 +54,8 @@ get:
                 application/json:
                     schema:
                         $ref: "../schemas/products.yaml"
+                    example: 
+                        $ref: ../examples/products.yaml
         "404":
             description: Can't find anything
             content:
