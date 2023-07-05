@@ -26,28 +26,36 @@ properties:
     building:
         type: string
         description: Номер дома
-        example: 3
+        example: "3"
     apartment:
         type: string
         description: Номер квартиры
-        example: 3
+        example: "3"
+    entrance:
+        type: string
+        description: Подъезд
+        example: "2"
     floor:
         type: string
         description: Этаж
-        example: 3
+        example: "3"
     door_code:
         type: string
         description: Код домофона
-        example: 344
+        example: "344"
     description:
         type: string
         description: Комментарий к адресу
         example: Домашний адрес
+    postalCode:
+        type: string
+        description: Почтовый индекс
+        example: "101000"
     latitude:
         type: number
         description: Широта
         example: 41.8781
-    longiture:
+    longitude:
         type: number
         description: Долгота
         example: -87.6298
