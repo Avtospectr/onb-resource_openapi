@@ -1,12 +1,13 @@
 # Specification for /product/{id}
 parameters:
     - name: id
-      description: Идентификатор пользователя
+      description: |
+        Идентификатор пользователя. *сurrent* - текущий пользователь.
       required: true
       in: path
       schema: 
         type: string
-        example: current
+        example: 647b8803ae697d4eee1ab5d4
 get:
     tags: 
         -  Пользователи
