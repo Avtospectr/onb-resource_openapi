@@ -1,33 +1,4 @@
 # Specification for /product
-post:
-    tags: 
-        -  Товары
-    summary: Добавить новый товар
-    description: Добавляет товар в базу данных.
-    operationId: addProduct
-    security: 
-        -  OTPSchema: []
-
-    requestBody:
-        description: Creating new product
-        required: true
-        content:
-            "application/json":
-                schema:
-                    $ref: ../schemas/product.partial.yaml
-    responses:
-        201:
-            description: A product to be returned
-            content:
-                application/json:
-                    schema:
-                        $ref: "../schemas/product.yaml"
-        
-        401:
-            $ref: ../responses/_index.yaml#/401
-        403:
-            $ref: ../responses/_index.yaml#/403
-
 get:
     tags: 
         -  Товары
