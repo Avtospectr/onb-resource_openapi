@@ -27,6 +27,10 @@ properties:
         type: string
         description: Номер дома
         example: "3"
+    block:
+        type: string
+        description: Корпус/строение
+        example: 2
     apartment:
         type: string
         description: Номер квартиры
