@@ -1,0 +1,38 @@
+get:
+  tags: 
+    - Геослужба
+  summary: Автозаполнение адреса
+  operationId: geo_suggestions
+  description: |
+    Эндпоинт возвращает список адресов по поисковому запросу. Для доступа к эндпоинту нужна авторизация, так как есть ограничения на количество запросов в день. По той же причине желательно использовать debounce или throttle.
+  security: 
+    -  OTPSchema: []
+  parameters: 
+    - $ref: ../parameters/geo_query.yaml
+    - name: limit
+      in: query
+      description: Максимальное количетсво адресов в ответе
+      schema: 
+        type: integer
+        default: 10
+      example: 10
+  
+  responses:
+    200:
+        description: Список адресов подходящих под запрос
+        content:
+            application/json:
+                schema:
+                    type: array
+                    items:
+                        $ref: ../schemas/address.suggestion.yaml
+                example: 
+                    $ref: ../examples/address.suggestions.yaml
+    204:
+      description: В зоне доставки нет адресов удовлетворяющих запросу
+    
+    401:
+        $ref: ../responses/_index.yaml#/401
+    403:
+        $ref: ../responses/_index.yaml#/403
+  

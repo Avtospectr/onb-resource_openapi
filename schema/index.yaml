@@ -21,6 +21,8 @@ tags:
       description: Эндпоинты для работы с информацией о пользователе
     - name: Заказы
       description: Эндпоинты для работы с заказами
+    - name: Геослужба
+      description: Эндпоинты для геокодирования и поиска адресов
 
 paths:
     /product:
@@ -52,6 +54,12 @@ paths:
 
     /order:
         $ref: routes/orders.yaml
+
+    /geo/suggestions:
+        $ref: routes/geo.suggestions.yaml
+
+    /geo/reverse:
+        $ref: routes/geo.reverse.yaml
     
     
         

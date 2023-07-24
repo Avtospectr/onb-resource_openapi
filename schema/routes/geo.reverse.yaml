@@ -1,0 +1,41 @@
+get:
+  tags: 
+    - Геослужба
+  summary: Обратный геокодинг
+  operationId: geo_reverse
+  description: |
+    Сервис возвращает адрес точки на карте по координатам.
+  security: 
+    -  OTPSchema: []
+  parameters: 
+    - $ref: ../parameters/geo_coords.yaml#/lat
+    - $ref: ../parameters/geo_coords.yaml#/lon
+    - name: limit
+      in: query
+      description: Максимальное количетсво адресов в ответе
+      schema: 
+        type: integer
+        default: 10
+      example: 10
+  
+  responses:
+    200:
+        description: Список адресов подходящих под запрос
+        content:
+            application/json:
+                schema:
+                    type: array
+                    items:
+                        $ref: ../schemas/address.suggestion.yaml
+                example: 
+                    $ref: ../examples/address.suggestions.yaml
+
+    204:
+      description: В зоне доставки нет адресов удовлетворяющих запросу
+    
+    
+    401:
+        $ref: ../responses/_index.yaml#/401
+    403:
+        $ref: ../responses/_index.yaml#/403
+  

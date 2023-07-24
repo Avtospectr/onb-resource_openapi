@@ -1,0 +1,45 @@
+# Schema for Address object
+type: object
+properties:
+    country:
+        type: string
+        default: Россия
+        description: Страна
+        example: Россия
+    region:
+        type: string
+        default: Москва
+        description: Регион
+        example: КБР
+    city:
+        type: string
+        description: Город
+        example: Тырныауз
+    settlement:
+        type: string
+        description: Населенный пункт
+        example: Тырныауз
+    street:
+        type: string
+        description: Улица
+        example: Горный переулок
+    building:
+        type: string
+        description: Номер дома
+        example: "3"
+    block:
+        type: string
+        description: Корпус/строение
+        example: "2"
+    postalCode:
+        type: string
+        description: Почтовый индекс
+        example: "101000"
+    latitude:
+        type: number
+        description: Широта
+        example: 41.8781
+    longitude:
+        type: number
+        description: Долгота
+        example: -87.6298

@@ -1,0 +1,15 @@
+lat:
+    name: lat
+    in: query
+    description: Широта, координата точки
+    schema: 
+        type: number
+    example: 55.878
+
+lon:
+    name: lon
+    in: query
+    description: Широта, координата точки
+    schema: 
+        type: number
+    example: 37.653

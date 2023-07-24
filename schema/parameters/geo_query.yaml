@@ -1,0 +1,6 @@
+name: query
+in: query
+description: Текст поискового запроса
+schema: 
+    type: string
+example: ленина

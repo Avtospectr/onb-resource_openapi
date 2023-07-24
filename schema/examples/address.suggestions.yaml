@@ -1,0 +1,30 @@
+- country: Россия
+  region: Москва
+  city: г Москва
+  settlement: ""
+  street: Библиотека им. Ленина
+  building: "1"
+  block: ""
+  postalCode: ""
+  latitude: 55.752123
+  longitude: 37.610388
+- country: Россия
+  region: Москва
+  city: г Москва
+  settlement: поселок Толстопальцево
+  street: ул Ленина
+  building: "1"
+  block: ""
+  postalCode: "108809"
+  latitude: 55.616209
+  longitude: 37.208075
+- country: Россия
+  region: Москва
+  city: г Москва
+  settlement: поселок Минвнешторга
+  street: ул Ленина
+  building: "1"
+  block: ""
+  postalCode: "108817"
+  latitude: 55.635289
+  longitude: 37.256971
