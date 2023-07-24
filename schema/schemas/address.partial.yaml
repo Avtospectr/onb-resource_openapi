@@ -19,6 +19,10 @@ properties:
         type: string
         description: Город
         example: Тырныауз
+    settlement:
+        type: string
+        description: Населенный пункт
+        example: село Терскол
     street:
         type: string
         description: Улица
