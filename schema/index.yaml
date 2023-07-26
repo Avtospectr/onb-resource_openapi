@@ -13,6 +13,8 @@ servers:
       description: Production Server
     - url: https://mock.onbexpress.ru/api/rest
       description: Mock Server
+    - url: https://api.sandbox.onbexpress.ru/rest
+      description: Sandbox Server
     
 tags: 
     - name: Товары
