@@ -47,10 +47,13 @@ post:
         description: Изображение товара
         required: true
         content:
-            image/*:
+            multipart/form-data:
                 schema:
-                    type: string
-                    format: binary
+                    type: object
+                    properties:
+                        file:
+                            type: string
+                            format: binary
     responses:
         201:
             description: Изображение добавлено
