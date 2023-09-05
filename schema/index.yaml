@@ -1,79 +1,71 @@
 openapi: 3.0.0
 
 info:
-    title: ONB Master API
-    description: Спецификаация API для бекенда ONB Express
-    version: 0.1.0
-    license:
-        name: Apache 2.0
-        url: http://www.apache.org/licenses/LICENSE-2.0.html
+  title: ONB Master API
+  description: Спецификаация API для бекенда ONB Express
+  version: 0.1.0
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
 
 servers:
-    - url: https://api.onbexpress.ru/rest
-      description: Production Server
-    - url: https://mock.onbexpress.ru/api/rest
-      description: Mock Server
-    - url: https://api.sandbox.onbexpress.ru/rest
-      description: Sandbox Server
-    
-tags: 
-    - name: Товары
-      description: Эндпоинты для работы с товарами
-    - name: Пользователи
-      description: Эндпоинты для работы с информацией о пользователе
-    - name: Заказы
-      description: Эндпоинты для работы с заказами
-    - name: Геослужба
-      description: Эндпоинты для геокодирования и поиска адресов
+  - url: https://api.onbexpress.ru/rest
+    description: Production Server
+  - url: https://mock.onbexpress.ru/api/rest
+    description: Mock Server
+  - url: https://api.sandbox.onbexpress.ru/rest
+    description: Sandbox Server
+
+tags:
+  - name: Товары
+    description: Эндпоинты для работы с товарами
+  - name: Пользователи
+    description: Эндпоинты для работы с информацией о пользователе
+  - name: Заказы
+    description: Эндпоинты для работы с заказами
+  - name: Геослужба
+    description: Эндпоинты для геокодирования и поиска адресов
 
 paths:
-    /product:
-        $ref: routes/products.yaml
+  /product:
+    $ref: routes/products.yaml
 
-    /product/{id}:
-        $ref: routes/product.yaml
+  /product/{id}:
+    $ref: routes/product.yaml
 
-    /product/{id}/thumbnail:
-        $ref: routes/product.thumbnail.yaml
-    
-    /product/{id}/image:
-        $ref: routes/product.images.yaml
-    
-    /product/{id}/image/{imageId}:
-        $ref: routes/product.image.yaml
-    
-    /user:
-        $ref: routes/users.yaml
-    
-    /user/{id}:
-        $ref: routes/user.yaml
-    
-    /user/{id}/address:
-        $ref: routes/addresses.yaml
+  /product/{id}/thumbnail:
+    $ref: routes/product.thumbnail.yaml
 
-    /user/{id}/address/{addressId}:
-        $ref: routes/address.yaml
+  /product/{id}/image:
+    $ref: routes/product.images.yaml
 
-    /order:
-        $ref: routes/orders.yaml
+  /product/{id}/image/{imageId}:
+    $ref: routes/product.image.yaml
 
-    /geo/suggestions:
-        $ref: routes/geo.suggestions.yaml
+  /user/{id}:
+    $ref: routes/user.yaml
 
-    /geo/reverse:
-        $ref: routes/geo.reverse.yaml
-    
-    
-        
+  /user/{id}/address:
+    $ref: routes/addresses.yaml
 
+  /user/{id}/address/{addressId}:
+    $ref: routes/address.yaml
+
+  /order:
+    $ref: routes/orders.yaml
+
+  /geo/suggestions:
+    $ref: routes/geo.suggestions.yaml
+
+  /geo/reverse:
+    $ref: routes/geo.reverse.yaml
 
 components:
-    parameters:
-        $ref: './parameters/_index.yaml'
-    schemas:
-        $ref: './schemas/_index.yaml'
-    responses: 
-        $ref: './responses/_index.yaml'
-    securitySchemes: 
-        $ref: 'security.yaml'
-                
+  parameters:
+    $ref: "./parameters/_index.yaml"
+  schemas:
+    $ref: "./schemas/_index.yaml"
+  responses:
+    $ref: "./responses/_index.yaml"
+  securitySchemes:
+    $ref: "security.yaml"
