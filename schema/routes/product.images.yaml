@@ -1,63 +1,66 @@
 # Specification for /user
 parameters:
-    - $ref: '../parameters/productId.yaml'
-
+  - $ref: "../parameters/productId.yaml"
 
 get:
-    tags: 
-        -  Товары
-    summary: Список дополнительных изображений товара
-    description: Эндпоинт для получения списка дополнительных изображений
-    operationId: getproductimages
-    security: []
+  tags:
+    - Товары
+  summary: Список дополнительных изображений товара
+  description: Эндпоинт для получения списка дополнительных изображений
+  operationId: getproductimages
+  security: []
 
-    responses:
-        200:
-            description: Список изображений
-            content:
-                application/json:
-                    schema: 
-                        type: array
-                        items: 
-                            type: string
-                    examples: 
-                        list: 
-                            value: 
-                                - /product/647b9b262498c742e48ea22b/image/1
-                                - /product/647b9b262498c742e48ea22b/image/2
-                                - /product/647b9b262498c742e48ea22b/image/3
-        204:
-            description: Нет изображений
-            content: 
-                application/json: 
-                    example: []
-        404:
-            $ref: ../responses/_index.yaml#/404
-        
+  responses:
+    200:
+      description: Список изображений
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              type: object
+              properties:
+                _id:
+                  type: string
+                  description: Идентификатор изображения
+                  example: 64f7745d56aa30852fc2ef5e
+          examples:
+            list:
+              value:
+                - _id: 64f7745d56aa30852fc2ef5e
+                - _id: 64f77164a46755b471c49c41
+    204:
+      description: Нет изображений
+      content:
+        application/json:
+          example: []
+    404:
+      $ref: ../responses/_index.yaml#/404
+
 post:
-    tags: 
-        -  Товары
-    summary: Добавить изображение товара
-    description: Эндпоинт для добавления изображения товара
-    operationId: addproductimage
-    security: 
-        -  OTPSchema: []
+  tags:
+    - Товары
+  summary: Добавить изображение товара
+  description: Эндпоинт для добавления изображения товара
+  operationId: addproductimage
+  security:
+    - OTPSchema: []
 
-    requestBody:
-        description: Изображение товара
-        required: true
-        content:
-            multipart/form-data:
-                schema:
-                    type: object
-                    properties:
-                        file:
-                            type: string
-                            format: binary
-    responses:
-        201:
-            description: Изображение добавлено
-        401:
-            $ref: ../responses/_index.yaml#/401
-        403:
-            $ref: ../responses/_index.yaml#/403
+  requestBody:
+    description: Изображение товара
+    required: true
+    content:
+      multipart/form-data:
+        schema:
+          type: object
+          properties:
+            file:
+              type: string
+              format: binary
+  responses:
+    201:
+      description: Изображение добавлено
+    401:
+      $ref: ../responses/_index.yaml#/401
+    403:
+      $ref: ../responses/_index.yaml#/403
