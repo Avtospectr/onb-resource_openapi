@@ -1,18 +1,24 @@
 product:
-    $ref: product.yaml
+  $ref: product.yaml
 products:
-    $ref: products.yaml
+  $ref: products.yaml
 user:
-    $ref: user.yaml
+  $ref: user.yaml
 userPartial:
-    $ref: user.partial.yaml
+  $ref: user.partial.yaml
 error:
-    $ref: error.yaml
+  $ref: error.yaml
 addressPartial:
-    $ref: address.partial.yaml
+  $ref: address.partial.yaml
 address:
-    $ref: address.yaml
+  $ref: address.yaml
 addresses:
-    $ref: addresses.yaml
+  $ref: addresses.yaml
 order:
-    $ref: order.yaml
+  $ref: order.yaml
+subscriptionPartial:
+  $ref: subscription.partial.yaml
+subscription:
+  $ref: subscription.yaml
+subscriptiones:
+  $ref: subscriptions.yaml

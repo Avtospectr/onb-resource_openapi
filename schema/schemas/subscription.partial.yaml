@@ -1,0 +1,3 @@
+# Schema for Address object
+oneOf:
+  - $ref: subscription.push.yaml

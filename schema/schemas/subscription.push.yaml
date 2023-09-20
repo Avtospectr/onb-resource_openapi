@@ -1,0 +1,29 @@
+# Schema for Address object
+type: object
+required:
+  - type
+  - credentials
+properties:
+  type:
+    type: string
+    enum:
+      - push
+    description: Тип подписки
+    example: push
+  credentials:
+    type: object
+    properties:
+      type_id:
+        type: string
+        description: Тип идентификатора устройства
+        enum:
+          - appmetrica_device_id
+          - ios_ifa
+          - google_aid
+          - android_push_token
+          - ios_push_token
+          - huawei_push_token
+          - huawei_oaid
+      appmetrica_device_id:
+        type: string
+        description: Идентификатор устройства в Yandex AppMetrica

@@ -51,6 +51,9 @@ paths:
   /user/{user_id}/address/{addressId}:
     $ref: routes/address.yaml
 
+  /user/{user_id}/subscription:
+    $ref: routes/user.subscriptions.yaml
+
   /order:
     $ref: routes/orders.yaml
 

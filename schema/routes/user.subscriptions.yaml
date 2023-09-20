@@ -1,0 +1,62 @@
+# Specification for /user
+parameters:
+  - $ref: "../parameters/userId.yaml"
+post:
+  tags:
+    - Пользователи
+  summary: Добавить подписку
+  description: Добавляет подписку для оповещения пользователя
+  operationId: addSubscription
+  security:
+    - OTPSchema: []
+
+  requestBody:
+    description: Добавление новой подписки
+    required: true
+    content:
+      "application/json":
+        schema:
+          $ref: ../schemas/_index.yaml#/subscriptionPartial
+  responses:
+    201:
+      description: Добавленная подписка
+      content:
+        application/json:
+          schema:
+            $ref: "../schemas/subscription.yaml"
+    401:
+      $ref: ../responses/_index.yaml#/401
+    403:
+      $ref: ../responses/_index.yaml#/403
+    400:
+      $ref: ../responses/_index.yaml#/400
+
+get:
+  tags:
+    - Пользователи
+
+  summary: Список подписок пользователя
+  description: Получить список подписок
+  operationId: getSubscriptions
+  security:
+    - OTPSchema: []
+
+  responses:
+    200:
+      description: Список адресов
+      content:
+        application/json:
+          schema:
+            $ref: ../schemas/subscriptions.yaml
+    204:
+      description: Подписки отсутствуют
+      content:
+        application/json:
+          example: []
+
+    401:
+      $ref: ../responses/_index.yaml#/401
+    403:
+      $ref: ../responses/_index.yaml#/403
+    404:
+      $ref: ../responses/_index.yaml#/404

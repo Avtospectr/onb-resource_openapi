@@ -1,0 +1,10 @@
+# Schema for Subscription object
+allOf:
+  - $ref: subscription.partial.yaml
+
+  - type: object
+    properties:
+      id:
+        type: string
+        description: Уникальный идентификатор подписки. Генерируется сервером при добавлении.
+        example: "6501fbeea6c32987dfd8bc85"
