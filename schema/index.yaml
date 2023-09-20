@@ -54,6 +54,9 @@ paths:
   /user/{user_id}/subscription:
     $ref: routes/user.subscriptions.yaml
 
+  /user/{user_id}/subscription/{subscription_id}:
+    $ref: routes/user.subscription.yaml
+
   /order:
     $ref: routes/orders.yaml
 

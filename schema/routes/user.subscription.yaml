@@ -1,0 +1,22 @@
+# Specification for /user
+parameters:
+  - $ref: "../parameters/userId.yaml"
+  - $ref: "../parameters/subscriptionId.yaml"
+delete:
+  tags:
+    - Пользователи
+  summary: Удалить подписку
+  description: Делает подписку пользователя неактивной
+  operationId: deleteSubscription
+  security:
+    - OTPSchema: []
+
+  responses:
+    200:
+      description: Подписка удалена
+    401:
+      $ref: ../responses/_index.yaml#/401
+    403:
+      $ref: ../responses/_index.yaml#/403
+    400:
+      $ref: ../responses/_index.yaml#/400
