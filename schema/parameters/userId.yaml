@@ -1,0 +1,8 @@
+# Specification for product.id parameter
+name: user_id
+description: Идентификатор пользователя. *сurrent* - текущий пользователь.
+in: path
+required: true
+schema:
+  type: string
+  example: "647b9b262498c742e48ea22b"

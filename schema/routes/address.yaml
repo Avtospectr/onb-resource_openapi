@@ -1,62 +1,61 @@
 # Specification for /user
 parameters:
-    - $ref: '../parameters/productId.yaml'
+  - $ref: "../parameters/userId.yaml"
 
-    - name: addressId
-      description: Идентификатор адреса
-      in: path
-      required: true
-      schema: 
-        type: string
-        example: 507f1f77bcf86cd799439011
+  - name: addressId
+    description: Идентификатор адреса
+    in: path
+    required: true
+    schema:
+      type: string
+      example: 507f1f77bcf86cd799439011
 
-        
 put:
-    tags: 
-        -  Пользователи
-    summary: Обновить адрес
-    description: Обновляет адрес пользователя
-    operationId: updateAddress
-    security: 
-        -  OTPSchema: []
+  tags:
+    - Пользователи
+  summary: Обновить адрес
+  description: Обновляет адрес пользователя
+  operationId: updateAddress
+  security:
+    - OTPSchema: []
 
-    requestBody:
-        description: Изменение адреса
-        required: true
-        content:
-            "application/json":
-                schema:
-                    $ref: ../schemas/_index.yaml#/addressPartial
-    responses:
-        201:
-            description: Измененный адрес
-            content:
-                application/json:
-                    schema:
-                        $ref: "../schemas/address.yaml"
-        401:
-            $ref: ../responses/_index.yaml#/401
-        403:
-            $ref: ../responses/_index.yaml#/403
-        400:
-            $ref: ../responses/_index.yaml#/400
+  requestBody:
+    description: Изменение адреса
+    required: true
+    content:
+      "application/json":
+        schema:
+          $ref: ../schemas/_index.yaml#/addressPartial
+  responses:
+    201:
+      description: Измененный адрес
+      content:
+        application/json:
+          schema:
+            $ref: "../schemas/address.yaml"
+    401:
+      $ref: ../responses/_index.yaml#/401
+    403:
+      $ref: ../responses/_index.yaml#/403
+    400:
+      $ref: ../responses/_index.yaml#/400
 
 delete:
-    tags: 
-        -  Пользователи
-        
-    summary: Удалить адрес
-    description: Удаляет адрес пользователя
-    operationId: deleteAddress
-    security: 
-        -  OTPSchema: [user]
+  tags:
+    - Пользователи
 
-    responses:
-        200:
-            description: Удрес удален
-        401:
-            $ref: ../responses/_index.yaml#/401
-        403:
-            $ref: ../responses/_index.yaml#/403
-        404:
-            $ref: ../responses/_index.yaml#/404
+  summary: Удалить адрес
+  description: Удаляет адрес пользователя
+  operationId: deleteAddress
+  security:
+    - OTPSchema: [user]
+
+  responses:
+    200:
+      description: Удрес удален
+    401:
+      $ref: ../responses/_index.yaml#/401
+    403:
+      $ref: ../responses/_index.yaml#/403
+    404:
+      $ref: ../responses/_index.yaml#/404
