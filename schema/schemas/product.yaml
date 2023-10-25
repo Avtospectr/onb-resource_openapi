@@ -1,31 +1,26 @@
 # Schema for Product object
-allOf: 
+allOf:
   - type: object
     properties:
-        id:
-            type: string
-            description: Уникальный идентификатор товара. Генерируется сервером при создании товара.
-            example: "647b9b262498c742e48ea22b"
-        stock:
-            type: integer
-            description: Количество товара на складе доступное для заказа.
-            example: 18
-            readOnly: true
-        createdAt:
-            type: string
-            format: timestamp
-            description: Время добавления товара в корзину.
-            example: 2023-06-09T03:19:56.186Z
-        thumbnail:
-            type: string
-            description: Ссылка на главное изображение товара.
-            example: https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/thumbnail.png
-        images:
-            type: array
-            description: Массив с дополнительными изображениями товара.
-            items:
-                type: string
-            example: 
-                - https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/image/1.png
-                - https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/image/2.png
+      id:
+        type: string
+        description: Уникальный идентификатор товара. Генерируется сервером при создании товара.
+        example: "647b9b262498c742e48ea22b"
+      createdAt:
+        type: string
+        format: timestamp
+        description: Время добавления товара в корзину.
+        example: 2023-06-09T03:19:56.186Z
+      thumbnail:
+        type: string
+        description: Ссылка на главное изображение товара.
+        example: https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/thumbnail.png
+      images:
+        type: array
+        description: Массив с дополнительными изображениями товара.
+        items:
+          type: string
+        example:
+          - https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/image/1.png
+          - https://onbexpress.ru/assets/product/647b9b262498c742e48ea22b/image/2.png
   - $ref: product.partial.yaml
