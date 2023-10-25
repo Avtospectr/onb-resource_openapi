@@ -1,75 +1,78 @@
 # Schema for Product object
 type: object
 required:
-    - title
-    - eid
-    - price
+  - title
+  - eid
+  - price
 properties:
-    eid:
+  eid:
+    type: string
+    description: Уникальный идентификатор товара в системе поставщика.
+    example: "UT-00025383"
+  sku:
+    type: string
+    description: Артикул товара
+    example: A78563S
+  weight:
+    type: number
+    description: Вес товара для службы доставки
+    example: 32.023
+  title:
+    type: string
+    description: Наименование товара.
+    example: 'Растворитель для переходов в банке ОНБ "МАГИЯ МЕРЛИНА" 500 мл'
+  price:
+    type: number
+    description: Стоимость товара.
+    example: 779.00
+  oldPrice:
+    type: number
+    nullable: true
+    description: Старая цена.
+    example: 820.00
+    default: null
+  rate:
+    type: number
+    description: Значимость товара для продавца. Может использоваться для сортировки.
+    example: 200
+  category:
+    type: string
+    description: Категория товара
+    example: Растворители
+  brand:
+    type: string
+    description: Бренд
+    example: ОНБ
+  shortDescription:
+    type: string
+    description: Обыкновенный растворитель.
+  longDescription:
+    type: string
+    description: Если вам надо что-то растворить, то...
+  position:
+    type: string
+    enum: [topList, ""]
+    description: Идентификатор блока для отображения  товара.
+    example: topList
+  specification:
+    type: object
+    description: Набор характеристик товара с соответствующими значениями.
+    example:
+      "Цвет": "Желтый"
+      "Объем": "1л"
+  badge:
+    type: object
+    nullable: true
+    properties:
+      type:
         type: string
-        description: Уникальный идентификатор товара в системе поставщика.
-        example: "UT-00025383"
-    sku:
+        enum: [discount, new]
+      value:
         type: string
-        description: Артикул товара
-        example: A78563S
-    weight:
-        type: number
-        description: Вес товара для службы доставки
-        example: 32.023
-    title:
-        type: string
-        description: Наименование товара.
-        example: 'Растворитель для переходов в банке ОНБ "МАГИЯ МЕРЛИНА" 500 мл'
-    price:
-        type: number
-        description: Стоимость товара.
-        example: 779.00
-    oldPrice:
-        type: number
-        nullable: true
-        description: Старая цена.
-        example: 820.00
-        default: null
-    rate:
-        type: number
-        description: Значимость товара для продавца. Может использоваться для сортировки.
-        example: 200
-    category:
-        type: string
-        description: Категория товара
-        example: Растворители
-    brand:
-        type: string
-        description: Бренд
-        example: ОНБ
-    shortDescription:
-        type: string
-        description: Обыкновенный растворитель.
-    longDescription:
-        type: string
-        description: Если вам надо что-то растворить, то...
-    position:
-        type: string
-        enum: [topList, ""]
-        description: Идентификатор блока для отображения  товара.
-        example: topList
-    specification:
-        type: object
-        description: Набор характеристик товара с соответствующими значениями.
-        example: 
-            "Цвет": "Желтый"
-            "Объем": "1л"
-    badge:
-        type: object
-        nullable: true
-        properties: 
-            type: 
-                type: string
-                enum: [discount,new]
-            value:
-                type: string
-        example: 
-            type: discount
-            value: 5%
-
+    example:
+      type: discount
+      value: 5%
+  isArchived:
+    type: boolean
+    description: Флаг для архивных продуктов, которых не должно быть в каталоге
+    default: false
