@@ -15,15 +15,7 @@ properties:
     properties:
       type_id:
         type: string
-        description: Тип идентификатора устройства
-        enum:
-          - appmetrica_device_id
-          - ios_ifa
-          - google_aid
-          - android_push_token
-          - ios_push_token
-          - huawei_push_token
-          - huawei_oaid
+        description: Тип идентификатора устройства (ios_ifa, google_aid, и т.д.)
       appmetrica_device_id:
         type: string
         description: Идентификатор устройства в Yandex AppMetrica
