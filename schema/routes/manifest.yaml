@@ -1,0 +1,19 @@
+# Backend manifest
+get:
+  tags:
+    - Общее
+  summary: Параметры приложения
+  description: Параметры приложения
+  operationId: manifest
+  security: []
+
+  responses:
+    200:
+      description: manifest.json
+      content:
+        application/json:
+          schema:
+            $ref: "../schemas/manifest.yaml"
+
+    404:
+      $ref: ../responses/_index.yaml#/404

@@ -17,6 +17,8 @@ servers:
     description: Sandbox Server
 
 tags:
+  - name: Общее
+    description: Глобальные эндпоинты
   - name: Товары
     description: Эндпоинты для работы с товарами
   - name: Пользователи
@@ -27,6 +29,9 @@ tags:
     description: Эндпоинты для геокодирования и поиска адресов
 
 paths:
+  /manifest.json:
+    $ref: routes/manifest.yaml
+
   /product:
     $ref: routes/products.yaml
 

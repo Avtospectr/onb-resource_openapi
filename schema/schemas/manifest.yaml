@@ -1,0 +1,18 @@
+# Manifest
+type: object
+properties:
+  build_version:
+    type: string
+    description: hash последнего коммита из которого был собран образ
+    example: "d69f754e53b84d0aa2deff98aa70399d98a2a296"
+  tinkoff_terminalKey:
+    type: string
+    description: ключ терминала для тинькофф
+    example: "123"
+  tinkoff_publicKey:
+    type: string
+    description: публичный ключ тинькофф
+    example: "123"
+  tinkoff_api:
+    type: string
+    description: Адрес API тинькофф
