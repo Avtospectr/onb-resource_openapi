@@ -60,6 +60,15 @@ post:
   responses:
     201:
       description: Изображение добавлено
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              _id:
+                type: string
+                description: Идентификатор изображения
+                example: 64f7745d56aa30852fc2ef5e
     401:
       $ref: ../responses/_index.yaml#/401
     403:
