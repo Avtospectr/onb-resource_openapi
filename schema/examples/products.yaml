@@ -1,12 +1,12 @@
-- id: '138257'
+- id: "138257"
   stock: 28
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р600.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
   eid: UT-00028292
-  sku: '60012510'
+  sku: "60012510"
   weight: 1
   title: Абразивные круги 125 мм. Р600 ОНБ на липучке Комплект 10 шт.
   price: 249
@@ -15,9 +15,10 @@
   category: Антикоррозионные материалы
   brand: ОНБ
   shortDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с…
-  longDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
+  longDescription:
+    ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
     сочетающие высокую агрессивность и долгий срок службы. Шлифкруг крепится…
-  position: ''
+  position: ""
   specification:
     Диаметр: 150 мм
     Размер зерна: Р800
@@ -25,15 +26,19 @@
   badge:
     type: discount
     value: 5%
-- id: '138258'
+  related_products:
+    - 62bc4176c1f085001c826a80
+    - 62bc5ed5381cb0001caa1b90
+    - 60df05aead83db001cd2993a
+- id: "138258"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р800.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
   eid: UT-00028294
-  sku: '80012510'
+  sku: "80012510"
   weight: 7
   title: Абразивные круги 125 мм. Р800 ОНБ на липучке Комплект 10 шт.
   price: 249
@@ -42,23 +47,24 @@
   category: Антикоррозионные материалы
   brand: ОНБ
   shortDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с…
-  longDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
+  longDescription:
+    ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
     сочетающие высокую агрессивность и долгий срок службы. Шлифкруг крепится…
-  position: ''
+  position: ""
   specification:
     Диаметр: 150 мм
     Размер зерна: Р800
     Страна-производитель: Евросоюз
   badge:
-- id: '138252'
+- id: "138252"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р80.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-125-5-шт-1.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-5-шт.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/абразив-125-5-шт-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-5-шт.jpg
   eid: UT-00028287
-  sku: '801255'
+  sku: "801255"
   weight: 3
   title: Абразивные круги 125 мм. Р80 ОНБ на липучке Комплект 5 шт.
   price: 149
@@ -67,7 +73,8 @@
   category: Антикоррозионные материалы
   brand: ОНБ
   shortDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с…
-  longDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
+  longDescription:
+    ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
     сочетающие высокую агрессивность и долгий срок службы. Шлифкруг крепится…
   position: topList
   specification:
@@ -75,15 +82,15 @@
     Размер зерна: Р800
     Страна-производитель: Евросоюз
   badge:
-- id: '138253'
+- id: "138253"
   stock: 64
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р120.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
   eid: UT-00028288
-  sku: '12012510'
+  sku: "12012510"
   weight: 8
   title: Абразивные круги 125 мм. Р120 ОНБ на липучке Комплект 10 шт.
   price: 249
@@ -92,9 +99,10 @@
   category: Антикоррозионные материалы
   brand: ОНБ
   shortDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с…
-  longDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
+  longDescription:
+    ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
     сочетающие высокую агрессивность и долгий срок службы. Шлифкруг крепится…
-  position: ''
+  position: ""
   specification:
     Диаметр: 150 мм
     Размер зерна: Р800
@@ -102,15 +110,15 @@
   badge:
     type: discount
     value: 5%
-- id: '138254'
+- id: "138254"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р240.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
   eid: UT-00028289
-  sku: '24012510'
+  sku: "24012510"
   weight: 1
   title: Абразивные круги 125 мм. Р240 ОНБ на липучке Комплект 10 шт.
   price: 249
@@ -119,9 +127,10 @@
   category: Антикоррозионные материалы
   brand: ОНБ
   shortDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с…
-  longDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
+  longDescription:
+    ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
     сочетающие высокую агрессивность и долгий срок службы. Шлифкруг крепится…
-  position: ''
+  position: ""
   specification:
     Диаметр: 150 мм
     Размер зерна: Р800
@@ -129,15 +138,15 @@
   badge:
     type: discount
     value: 5%
-- id: '138255'
+- id: "138255"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р320.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
   eid: UT-00028290
-  sku: '32012510'
+  sku: "32012510"
   weight: 3
   title: Абразивные круги 125 мм. Р320 ОНБ на липучке Комплект 10 шт.
   price: 249
@@ -146,23 +155,24 @@
   category: Антикоррозионные материалы
   brand: ОНБ
   shortDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с…
-  longDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
+  longDescription:
+    ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
     сочетающие высокую агрессивность и долгий срок службы. Шлифкруг крепится…
-  position: ''
+  position: ""
   specification:
     Диаметр: 150 мм
     Размер зерна: Р800
     Страна-производитель: Евросоюз
   badge:
-- id: '138256'
+- id: "138256"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р500.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-10-шт.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/абразив-1245-10-шт-1.jpg
   eid: UT-00028291
-  sku: '50012510'
+  sku: "50012510"
   weight: 4
   title: Абразивные круги 125 мм. Р500 ОНБ на липучке Комплект 10 шт.
   price: 249
@@ -171,9 +181,10 @@
   category: Антикоррозионные материалы
   brand: ОНБ
   shortDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с…
-  longDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
+  longDescription:
+    ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
     сочетающие высокую агрессивность и долгий срок службы. Шлифкруг крепится…
-  position: ''
+  position: ""
   specification:
     Диаметр: 150 мм
     Размер зерна: Р800
@@ -181,15 +192,15 @@
   badge:
     type: discount
     value: 5%
-- id: '138251'
+- id: "138251"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/125-мм-Р60.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-5-шт.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/05/абразив-125-5-шт-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/125-мм.-5-шт.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/абразив-125-5-шт-1.jpg
   eid: UT-00028285
-  sku: '601255'
+  sku: "601255"
   weight: 3
   title: Абразивные круги 125 мм. Р60 ОНБ на липучке Комплект 5 шт.
   price: 149
@@ -198,9 +209,10 @@
   category: Антикоррозионные материалы
   brand: ОНБ
   shortDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с…
-  longDescription: ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
+  longDescription:
+    ОНБ GOLD — это инновационные абразивы на тканевой основе с липучкой,
     сочетающие высокую агрессивность и долгий срок службы. Шлифкруг крепится…
-  position: ''
+  position: ""
   specification:
     Диаметр: 150 мм
     Размер зерна: Р800
@@ -208,16 +220,16 @@
   badge:
     type: discount
     value: 5%
-- id: '138057'
+- id: "138057"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/05/салфетки-2.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/05/салфетки-4.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/05/салфетки-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/05/салфетки.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/салфетки-4.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/салфетки-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/05/салфетки.jpg
   eid: UT-00027753
-  sku: '201523'
+  sku: "201523"
   weight: 10
   title: Салфетки для обезжиривания нетканые ОНБ "Чистюля" комплект 15 шт.
   price: 399
@@ -225,26 +237,28 @@
   rate: 9
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Салфетки для обезжиривания ОНБ "Чистюля" - высокопрочные нетканые
+  shortDescription:
+    Салфетки для обезжиривания ОНБ "Чистюля" - высокопрочные нетканые
     одноразовые салфетки.…
-  longDescription: Салфетки для обезжиривания ОНБ "Чистюля" - высокопрочные нетканые
+  longDescription:
+    Салфетки для обезжиривания ОНБ "Чистюля" - высокопрочные нетканые
     одноразовые салфетки. Хорошая впитывающая способность и стойкость к воздействию
     агрессивных сред (обезжириватели,…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
   badge:
     type: discount
     value: 5%
-- id: '136989'
+- id: "136989"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/04/проявка-1.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/04/проявка-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/04/проявка-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/проявка-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/проявка-2.jpg
   eid: UT-00027737
-  sku: '005001'
+  sku: "005001"
   weight: 6
   title: Проявочное покрытие краска ОНБ "Проявка" 500 мл черный
   price: 779
@@ -252,83 +266,91 @@
   rate: 10
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Проявочное покрытие краска ОНБ "Проявка" 500 мл черный станет
+  shortDescription:
+    Проявочное покрытие краска ОНБ "Проявка" 500 мл черный станет
     незаменимым…
-  longDescription: Проявочное покрытие краска ОНБ "Проявка" 500 мл черный станет незаменимым
+  longDescription:
+    Проявочное покрытие краска ОНБ "Проявка" 500 мл черный станет незаменимым
     помощником в выравнивании поверхности перед окраской. Проявка имеет мелкую структуру…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
     Упаковка: В аэрозольном балоне
     Химическая основа: Акриловый
   badge:
-- id: '136988'
+- id: "136988"
   stock: 29
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/04/бобер-75-мм-4.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-75-мм.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-75-мм-2.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-75-мм-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-1-1.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/04/бобер2-1-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/бобер-75-мм.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/бобер-75-мм-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/бобер-75-мм-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/бобер-1-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/бобер2-1-1.jpg
   eid: UT-00027739
-  sku: '080875'
+  sku: "080875"
   weight: 5
-  title: Круг зачистной ОНБ 75 мм коралловый для снятия краски и ржавчины на дрель
+  title:
+    Круг зачистной ОНБ 75 мм коралловый для снятия краски и ржавчины на дрель
     (шуруповерт) Бобер
   price: 449
   oldPrice: 0
   rate: 11
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Диск коралловый шлифовальный для дрели (шуруповерта) БОБЕР ОНБ
+  shortDescription:
+    Диск коралловый шлифовальный для дрели (шуруповерта) БОБЕР ОНБ
     для снятия…
-  longDescription: Диск коралловый шлифовальный для дрели (шуруповерта) БОБЕР ОНБ
+  longDescription:
+    Диск коралловый шлифовальный для дрели (шуруповерта) БОБЕР ОНБ
     для снятия краски, ржавчины 75 мм фиолетовый. Коралловые полимерные зачистные
     круги применяются…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
   badge:
-- id: '136987'
+- id: "136987"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/04/бобер-50-мм-3.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-50-мм.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-50-мм-2.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/04/бобер2-.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/04/бобер-.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/бобер-50-мм.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/бобер-50-мм-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/бобер2-.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/бобер-.jpg
   eid: UT-00027738
-  sku: '080850'
+  sku: "080850"
   weight: 2
-  title: Круг зачистной ОНБ 50 мм коралловый для снятия краски и ржавчины на дрель
+  title:
+    Круг зачистной ОНБ 50 мм коралловый для снятия краски и ржавчины на дрель
     (шуруповерт) Бобер
   price: 249
   oldPrice: 0
   rate: 12
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Диск коралловый шлифовальный для дрели (шуруповерта) БОБЕР ОНБ
+  shortDescription:
+    Диск коралловый шлифовальный для дрели (шуруповерта) БОБЕР ОНБ
     для снятия…
-  longDescription: Диск коралловый шлифовальный для дрели (шуруповерта) БОБЕР ОНБ
+  longDescription:
+    Диск коралловый шлифовальный для дрели (шуруповерта) БОБЕР ОНБ
     для снятия краски, ржавчины 50 мм фиолетовый. Коралловые полимерные зачистные
     круги применяются…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
   badge:
-- id: '136732'
+- id: "136732"
   stock: 77
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/04/шпат-02кг-2.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/04/шпат-02кг-1.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/04/шпат-02кг-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/04/шпат-02кг-4.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/шпат-02кг-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/шпат-02кг-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/шпат-02кг-4.jpg
   eid: UT-00027490
-  sku: '7102'
+  sku: "7102"
   weight: 1
   title: Шпатлевка автомобильная со стекловолокном ОНБ "Стеклошпат"  0,2 кг
   price: 479
@@ -336,25 +358,27 @@
   rate: 13
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Шпатлевка со стекловолокном "Стеклошпат" ОНБ является высококачественной
+  shortDescription:
+    Шпатлевка со стекловолокном "Стеклошпат" ОНБ является высококачественной
     разработкой лучших химиков…
-  longDescription: Шпатлевка со стекловолокном "Стеклошпат" ОНБ является высококачественной
+  longDescription:
+    Шпатлевка со стекловолокном "Стеклошпат" ОНБ является высококачественной
     разработкой лучших химиков и технологов европейских заводов по индивидуальному
     техническому заданию компании ООО…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
   badge:
-- id: '136733'
+- id: "136733"
   stock: 3
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/04/шпат-1кг.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/04/шпат-1кг-4.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/04/шпат-1кг-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/04/шпат-1кг-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/шпат-1кг-4.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/шпат-1кг-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/04/шпат-1кг-2.jpg
   eid: UT-00027528
-  sku: '71011'
+  sku: "71011"
   weight: 2
   title: Шпатлевка автомобильная со стекловолокном ОНБ "Стеклошпат" 1 кг
   price: 1349
@@ -362,27 +386,29 @@
   rate: 14
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Шпатлевка со стекловолокном "Стеклошпат" ОНБ является высококачественной
+  shortDescription:
+    Шпатлевка со стекловолокном "Стеклошпат" ОНБ является высококачественной
     разработкой лучших химиков…
-  longDescription: Шпатлевка со стекловолокном "Стеклошпат" ОНБ является высококачественной
+  longDescription:
+    Шпатлевка со стекловолокном "Стеклошпат" ОНБ является высококачественной
     разработкой лучших химиков и технологов европейских заводов по индивидуальному
     техническому заданию компании ООО…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
   badge:
-- id: '136254'
+- id: "136254"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/Герметик-для-стекол-1.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/03/Герметик-для-стекол-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/Герметик-для-стекол-2.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/Снимок-экрана-2023-04-08-в-12.18.16.png
-  - https://avtospectr.com/wp-content/uploads/2023/03/Снимок-экрана-2023-04-08-в-12.16.22.png
-  - https://avtospectr.com/wp-content/uploads/2023/03/Снимок-экрана-2023-04-08-в-12.12.04.png
+    - https://avtospectr.com/wp-content/uploads/2023/03/Герметик-для-стекол-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Герметик-для-стекол-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Снимок-экрана-2023-04-08-в-12.18.16.png
+    - https://avtospectr.com/wp-content/uploads/2023/03/Снимок-экрана-2023-04-08-в-12.16.22.png
+    - https://avtospectr.com/wp-content/uploads/2023/03/Снимок-экрана-2023-04-08-в-12.12.04.png
   eid: UT-00027481
-  sku: '7141'
+  sku: "7141"
   weight: 4
   title: ОНБ Клей-герметик полиуретановый для стекла 310мл
   price: 1199
@@ -390,12 +416,14 @@
   rate: 15
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Полиуретановый герметик  для вклейки стекол ОНБ "Спрут" в тубе
+  shortDescription:
+    Полиуретановый герметик  для вклейки стекол ОНБ "Спрут" в тубе
     под…
-  longDescription: 'Полиуретановый герметик  для вклейки стекол ОНБ "Спрут" в тубе
+  longDescription:
+    'Полиуретановый герметик  для вклейки стекол ОНБ "Спрут" в тубе
     под пистолет предназначен для вклейки автомобильных стекол: ветровых (лобовых),
     задних и…'
-  position: ''
+  position: ""
   specification:
     Предназначение использования: Защитное покрытие для кузова
     Страна-производитель: Евросоюз
@@ -404,16 +432,16 @@
   badge:
     type: discount
     value: 5%
-- id: '136253'
+- id: "136253"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/кислотник-1.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/03/кислотник-4.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/кислотник-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/кислотник-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/кислотник-4.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/кислотник-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/кислотник-2.jpg
   eid: UT-00027756
-  sku: '110505'
+  sku: "110505"
   weight: 5
   title: Кислотный грунт для авто ОНБ "Кислотник" (протравливающий) 2К 1:1 0,5л+0,5л
   price: 999
@@ -422,10 +450,11 @@
   category: Антикоррозионные материалы
   brand: ОНБ
   shortDescription: Кислотный грунт ОНБ «Кислотник» 0,5 л. грунта + 0,5 л.…
-  longDescription: Кислотный грунт ОНБ «Кислотник» 0,5 л. грунта + 0,5 л. отвердителя
+  longDescription:
+    Кислотный грунт ОНБ «Кислотник» 0,5 л. грунта + 0,5 л. отвердителя
     Высококачественный протравливающий грунт ОНБ "Кислотник" станет незаменимым помощником
     в…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
     Упаковка: В банке
@@ -434,21 +463,21 @@
   badge:
     type: discount
     value: 5%
-- id: '136251'
+- id: "136251"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-4.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-9.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-8.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-7.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-6.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-5.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-2.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-1-.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-9.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-8.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-7.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-6.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-5.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/скотч-брайт-серый-1-.jpg
   eid: UT-00026024
-  sku: '0607'
+  sku: "0607"
   weight: 3
   title: Скотч брайт серый 150 x 230 мм, ОНБ Р400/500 КОМПЛЕКТ 3 шт
   price: 277
@@ -456,12 +485,14 @@
   rate: 17
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Уникальный абразивный материал Scotch Brite МАТОВЕЦ ОНБ состоит
+  shortDescription:
+    Уникальный абразивный материал Scotch Brite МАТОВЕЦ ОНБ состоит
     из синтетических…
-  longDescription: Уникальный абразивный материал Scotch Brite МАТОВЕЦ ОНБ состоит
+  longDescription:
+    Уникальный абразивный материал Scotch Brite МАТОВЕЦ ОНБ состоит
     из синтетических волокон, образующих гибкое трехмерное нетканое полотно, по всему
     объему которого…
-  position: ''
+  position: ""
   specification:
     Назначение: Лист шлифовальный/шкурка
     Размер: 150х230 мм
@@ -470,15 +501,15 @@
     Тип: Войлок шлифовальный
     Цвет: Серый
   badge:
-- id: '136189'
+- id: "136189"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/Ш-2.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/03/8.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/Ш-1.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/7.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/6-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/8.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Ш-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/7.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/6-2.jpg
   eid: UT-00027968
   sku: 4040B
   weight: 7
@@ -489,25 +520,26 @@
   category: Антикоррозионные материалы
   brand: ОНБ
   shortDescription: Микрофибра для автомобиля ОНБ "Шиншила" с коротким ворсом и мягким…
-  longDescription: Микрофибра для автомобиля ОНБ "Шиншила" с коротким ворсом и мягким
+  longDescription:
+    Микрофибра для автомобиля ОНБ "Шиншила" с коротким ворсом и мягким
     краем предназначена для располировки защитных составов на поверхности ЛКП и…
-  position: ''
+  position: ""
   specification:
-    Единиц в одном товаре: '1'
+    Единиц в одном товаре: "1"
     Назначение: Для кузова автомобиля
     Область применения: Кузовной ремонт
     Страна-производитель: Евросоюз
   badge:
     type: discount
     value: 5%
-- id: '135328'
+- id: "135328"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/герметик-серый-1.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/03/герметик-серый-4.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/герметик-серый-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/герметик-серый-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/герметик-серый-4.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/герметик-серый-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/герметик-серый-2.jpg
   eid: UT-00027736
   sku: 7040G
   weight: 9
@@ -517,30 +549,30 @@
   rate: 19
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: ''
-  longDescription: ''
-  position: ''
+  shortDescription: ""
+  longDescription: ""
+  position: ""
   specification:
     Предназначение использования: Защитное покрытие для кузова
     Страна-производитель: Евросоюз
     Упаковка: Банка 1 кг
     Цвет: Черный
   badge:
-- id: '135327'
+- id: "135327"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/пленка-3.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-8.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-7.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-6.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-5.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-4.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-3-1.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-2.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/пленка-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/пленка-8.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/пленка-7.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/пленка-6.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/пленка-5.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/пленка-4.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/пленка-3-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/пленка-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/пленка-1.jpg
   eid: UT-00027489
-  sku: '041023'
+  sku: "041023"
   weight: 3
   title: Пленка укрывная для покраски ОНБ "Вуаль" 4*10 м
   price: 199
@@ -548,29 +580,31 @@
   rate: 20
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Полиэтиленовая пленка высокой прочности предназначена для защиты
+  shortDescription:
+    Полиэтиленовая пленка высокой прочности предназначена для защиты
     элементов, предметов и…
-  longDescription: Полиэтиленовая пленка высокой прочности предназначена для защиты
+  longDescription:
+    Полиэтиленовая пленка высокой прочности предназначена для защиты
     элементов, предметов и поверхностей от пыли, влаги, краски и прочих загрязнений.
     Подходит для…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
   badge:
     type: discount
     value: 5%
-- id: '135323'
+- id: "135323"
   stock: 19
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-1.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-6.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-5.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-4.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-6.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-5.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-4.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/обезжириватель-нью-2.jpg
   eid: UT-00026379
-  sku: '33323'
+  sku: "33323"
   weight: 3
   title: Обезжириватель автомобильный для покраски (антисиликон) ОНБ 1 л. 33323
   price: 1099
@@ -578,34 +612,36 @@
   rate: 21
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Состав на основе композиции сольвентов и спиртов предназначен
+  shortDescription:
+    Состав на основе композиции сольвентов и спиртов предназначен
     для удаления…
-  longDescription: Состав на основе композиции сольвентов и спиртов предназначен для
+  longDescription:
+    Состав на основе композиции сольвентов и спиртов предназначен для
     удаления жиров, парафинов, восков, масел, силиконов и других веществ с поверхностей…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
   badge:
     type: discount
     value: 5%
-- id: '134646'
+- id: "134646"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-3.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-11.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-10.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-9.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-8.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-7.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-6.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-5.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-4.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-1.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-11.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-10.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-9.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-8.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-7.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-6.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-5.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-4.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-1.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/03/Ситечко-2.jpg
   eid: UT-00026706
-  sku: '2311'
+  sku: "2311"
   weight: 6
   title: ОНБ Ситечко для фильтрации лакокрасочных материалов 190мкм КОМПЛЕКТ 50 шт
   price: 369
@@ -613,14 +649,16 @@
   rate: 22
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Ситечко для фильтрации лакокрасочных материалов 190 мкм. КОМПЛЕКТ
+  shortDescription:
+    Ситечко для фильтрации лакокрасочных материалов 190 мкм. КОМПЛЕКТ
     50 шт…
-  longDescription: Ситечко для фильтрации лакокрасочных материалов 190 мкм. КОМПЛЕКТ
+  longDescription:
+    Ситечко для фильтрации лакокрасочных материалов 190 мкм. КОМПЛЕКТ
     50 шт ОНБ "Фильтрович" Предназначен для фильтрации лакокрасочных материалов перед
     заправкой в…
-  position: ''
+  position: ""
   specification:
-    Единиц в одном товаре: '1'
+    Единиц в одном товаре: "1"
     Материал: Бумага, нейлон
     Назначение: Малярно-штукатурный
     Страна-производитель: Евросоюз
@@ -628,9 +666,9 @@
     Цвет: Белый
     Ячейка сетки: 190 мкм
   badge:
-- id: '134581'
+- id: "134581"
   stock: 80
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/03/3010-01-1L.jpg
   images: []
   eid: UT-00013117
@@ -642,27 +680,29 @@
   rate: 23
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Разбавитель для акриловых красок и грунтов ОНБ Без разбавителей
+  shortDescription:
+    Разбавитель для акриловых красок и грунтов ОНБ Без разбавителей
     в…
-  longDescription: Разбавитель для акриловых красок и грунтов ОНБ Без разбавителей
+  longDescription:
+    Разбавитель для акриловых красок и грунтов ОНБ Без разбавителей
     в авторемонтном деле не обойтись. Их используют и в качестве разбавления…
-  position: ''
+  position: ""
   specification:
     Объем: 1 л
     Плотность: 0,9 г/см³
     Страна-производитель: Евросоюз
     Цвет растворителей: Бесцветный
   badge:
-- id: '132925'
+- id: "132925"
   stock: 26
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/02/под-кисть-1.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/02/под-кисть-4.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/02/под-кисть-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/02/под-кисть-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/02/под-кисть-4.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/02/под-кисть-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/02/под-кисть-2.jpg
   eid: UT-00027473
-  sku: '704001'
+  sku: "704001"
   weight: 3
   title: Полиуретановый шовный герметик серый под кисть ОНБ "АНАКОНДА" 1 кг.
   price: 1519
@@ -670,31 +710,33 @@
   rate: 24
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Полиуретановый шовный герметик под кисть Анаконда ОНБ. Изготовлен
+  shortDescription:
+    Полиуретановый шовный герметик под кисть Анаконда ОНБ. Изготовлен
     по высокотехнологичным…
-  longDescription: Полиуретановый шовный герметик под кисть Анаконда ОНБ. Изготовлен
+  longDescription:
+    Полиуретановый шовный герметик под кисть Анаконда ОНБ. Изготовлен
     по высокотехнологичным формулам и разработан лучшими химиками европейского завода.
     Отличительными свойствами являются…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
   badge:
-- id: '129302'
+- id: "129302"
   stock: 53
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2023/01/5-16.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2023/01/10-6.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/01/9-7.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/01/8-7.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/01/1-27.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/01/2-27.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/01/7-12.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/01/6-14.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/01/4-20.jpg
-  - https://avtospectr.com/wp-content/uploads/2023/01/3-22.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/01/10-6.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/01/9-7.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/01/8-7.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/01/1-27.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/01/2-27.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/01/7-12.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/01/6-14.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/01/4-20.jpg
+    - https://avtospectr.com/wp-content/uploads/2023/01/3-22.jpg
   eid: UT-00026707
-  sku: '2411'
+  sku: "2411"
   weight: 1
   title: ОНБ Набор шпателей TOP - MASTER (50/80/100/120 мм) металлические
   price: 199
@@ -702,12 +744,14 @@
   rate: 25
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: Набор шпателей ОНБ «TOP-MASTER» станут незаменимым помощников
+  shortDescription:
+    Набор шпателей ОНБ «TOP-MASTER» станут незаменимым помощников
     в качественном выравнии…
-  longDescription: Набор шпателей ОНБ «TOP-MASTER» станут незаменимым помощников в
+  longDescription:
+    Набор шпателей ОНБ «TOP-MASTER» станут незаменимым помощников в
     качественном выравнии поверхностей автомобиля. Штапеля не жесткие, эластичные,
     что позволит вам плавно…
-  position: ''
+  position: ""
   specification:
     Длина: 190 мм
     Материал: Легированная сталь
@@ -719,20 +763,20 @@
   badge:
     type: discount
     value: 5%
-- id: '122307'
+- id: "122307"
   stock: 71
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2022/12/вамв.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2022/12/10-8.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/12/9-7.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/12/8-8.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/12/7-10.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/12/2-13.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/12/3-12.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/12/4-12.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/12/5-12.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/12/6-11.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/12/10-8.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/12/9-7.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/12/8-8.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/12/7-10.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/12/2-13.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/12/3-12.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/12/4-12.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/12/5-12.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/12/6-11.jpg
   eid: UT-00013554
   sku: 4010-01-5L
   weight: 9
@@ -747,7 +791,7 @@
   longDescription: Прозрачный двухкомпонентный быстросохнущий акриловый лак с
     высоким содержанием сухого остатка и низким содержанием летучих соединений. Создает
     твердое глянцевое покрытие, высокоустойчивое…
-  position: ''
+  position: ""
   specification:
     Объем: 5 л.
     Основа краски: Акриловая
@@ -761,22 +805,22 @@
   badge:
     type: discount
     value: 5%
-- id: '121375'
+- id: "121375"
   stock: 15
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2022/11/пылеед-1.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-6.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-5.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-4.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-2.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-7.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-8.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-10.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-9.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-6.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-5.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-4.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-7.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-8.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-10.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пылеед-9.jpg
   eid: UT-00026512
-  sku: '2212'
+  sku: "2212"
   weight: 2
   title: Липкая салфетка для покраски ОНБ "ПЫЛЕЕД" 80*90см
   price: 149
@@ -785,29 +829,30 @@
   category: Антикоррозионные материалы
   brand: ОНБ
   shortDescription: Салфетка — антистатик служит для удаления опыла от металлика с…
-  longDescription: Салфетка — антистатик служит для удаления опыла от металлика с
+  longDescription:
+    Салфетка — антистатик служит для удаления опыла от металлика с
     окрашенной поверхности во время межслойных пауз. Салфетка пропитана специальным
     антистатическим…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
   badge:
-- id: '121373'
+- id: "121373"
   stock: 30
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-2.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-3.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-4.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-5.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-6.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-7.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-8.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-9.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-10.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-2.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-3.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-4.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-5.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-6.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-7.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-8.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-9.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/пыли-нет-10.jpg
   eid: UT-00026511
-  sku: '2211'
+  sku: "2211"
   weight: 6
   title: Липкая салфетка для покраски ОНБ "ПЫЛИ НЕТ" 80*90см
   price: 179
@@ -816,26 +861,27 @@
   category: Антикоррозионные материалы
   brand: ОНБ
   shortDescription: Салфетка — антистатик служит для удаления опыла от металлика с…
-  longDescription: Салфетка — антистатик служит для удаления опыла от металлика с
+  longDescription:
+    Салфетка — антистатик служит для удаления опыла от металлика с
     окрашенной поверхности во время межслойных пауз. Салфетка пропитана специальным
     антистатическим…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
   badge:
-- id: '118894'
+- id: "118894"
   stock: 80
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2022/11/1.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2022/11/9.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/8.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/7.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/6.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/5.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/4.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/3.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/11/2.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/9.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/8.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/7.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/6.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/5.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/4.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/3.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/11/2.jpg
   eid: UT-00025660
   sku: BLUE2
   weight: 8
@@ -845,32 +891,34 @@
   rate: 29
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: ОНБ Шпатлевка КУДЕСНИК Universal Putty BLUE 2кг + отвердитель
+  shortDescription:
+    ОНБ Шпатлевка КУДЕСНИК Universal Putty BLUE 2кг + отвердитель
     0,05гр…
-  longDescription: ОНБ Шпатлевка КУДЕСНИК Universal Putty BLUE 2кг + отвердитель 0,05гр
+  longDescription:
+    ОНБ Шпатлевка КУДЕСНИК Universal Putty BLUE 2кг + отвердитель 0,05гр
     Универсальная шпатлевка служит для широкого спектра работ. Применяется как в…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
   badge:
     type: discount
     value: 5%
-- id: '112338'
+- id: "112338"
   stock: 0
-  createdAt: '2023-06-09T03:19:56.186Z'
+  createdAt: "2023-06-09T03:19:56.186Z"
   thumbnail: https://avtospectr.com/wp-content/uploads/2022/10/1.jpg
   images:
-  - https://avtospectr.com/wp-content/uploads/2022/10/2.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/10/3.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/10/4.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/10/5.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/10/6.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/10/7.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/10/8.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/10/9.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/10/10.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/10/11.jpg
-  - https://avtospectr.com/wp-content/uploads/2022/10/12.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/10/2.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/10/3.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/10/4.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/10/5.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/10/6.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/10/7.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/10/8.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/10/9.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/10/10.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/10/11.jpg
+    - https://avtospectr.com/wp-content/uploads/2022/10/12.jpg
   eid: UT-00025659
   sku: BLUE1
   weight: 3
@@ -880,11 +928,13 @@
   rate: 30
   category: Антикоррозионные материалы
   brand: ОНБ
-  shortDescription: ОНБ Шпатлевка КУДЕСНИК Universal Putty BLUE 1кг + отвердитель
+  shortDescription:
+    ОНБ Шпатлевка КУДЕСНИК Universal Putty BLUE 1кг + отвердитель
     0,05гр…
-  longDescription: ОНБ Шпатлевка КУДЕСНИК Universal Putty BLUE 1кг + отвердитель 0,05гр
+  longDescription:
+    ОНБ Шпатлевка КУДЕСНИК Universal Putty BLUE 1кг + отвердитель 0,05гр
     Универсальная шпатлевка служит для широкого спектра работ. Применяется как в…
-  position: ''
+  position: ""
   specification:
     Страна-производитель: Евросоюз
   badge:

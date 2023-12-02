@@ -76,3 +76,12 @@ properties:
     type: boolean
     description: Флаг для архивных продуктов, которых не должно быть в каталоге
     default: false
+  related_products:
+    type: array
+    items:
+      type: string
+    default: []
+    example:
+      - 62bc4176c1f085001c826a80
+      - 62bc5ed5381cb0001caa1b90
+      - 60df05aead83db001cd2993a
