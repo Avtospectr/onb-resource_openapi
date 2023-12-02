@@ -16,3 +16,6 @@ properties:
   tinkoff_api:
     type: string
     description: Адрес API тинькофф
+  bonus_payment_quota:
+    type: number
+    description: Максимальный процент от оплаты бонусами
