@@ -4,7 +4,16 @@ allOf:
     properties:
       status:
         type: string
-        enum: [created, pending, in_delivery, canceled, finished]
+        enum:
+          [
+            created,
+            pending,
+            in_delivery,
+            store_processing,
+            arrived,
+            canceled,
+            finished,
+          ]
         description: Статус заказа
         example: created
       payment:
