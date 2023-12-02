@@ -67,7 +67,6 @@ properties:
     properties:
       type:
         type: string
-        enum: [discount, new]
       value:
         type: string
     example:
