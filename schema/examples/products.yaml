@@ -11,6 +11,11 @@
   title: Абразивные круги 125 мм. Р600 ОНБ на липучке Комплект 10 шт.
   price: 249
   oldPrice: 0
+  prices:
+    - qnty: 2
+      price: 240
+    - qnty: 10
+      price: 200
   rate: 1
   category: Антикоррозионные материалы
   brand: ОНБ

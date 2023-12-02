@@ -24,7 +24,7 @@ properties:
     example: 'Растворитель для переходов в банке ОНБ "МАГИЯ МЕРЛИНА" 500 мл'
   price:
     type: number
-    description: Стоимость товара.
+    description: Базовая стоимость товара.
     example: 779.00
   oldPrice:
     type: number
@@ -32,6 +32,21 @@ properties:
     description: Старая цена.
     example: 820.00
     default: null
+  prices:
+    type: array
+    nullable: true
+    description: Вилка цен
+    items:
+      type: object
+      properties:
+        qnty:
+          type: number
+          description: Количество товара от которого действует цена
+          example: 3
+        price:
+          type: number
+          description: Цена при достижении количества товара в корзине
+          example: 750
   rate:
     type: number
     description: Значимость товара для продавца. Может использоваться для сортировки.
