@@ -50,6 +50,9 @@ paths:
   /user/{id}:
     $ref: routes/user.yaml
 
+  /user:
+    $ref: routes/users.yaml
+
   /user/{user_id}/address:
     $ref: routes/addresses.yaml
 

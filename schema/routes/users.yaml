@@ -1,0 +1,27 @@
+get:
+  tags:
+    - Пользователи
+  parameters:
+    - $ref: ../parameters/limit.yaml
+    - $ref: ../parameters/offset.yaml
+    - $ref: ../parameters/sort.yaml
+    - $ref: ../parameters/order.yaml
+  summary: Список пользователей
+  description: Получить список пользователей.
+  operationId: getUsers
+  security:
+    - OTPSchema: []
+  responses:
+    200:
+      description: Список пользователей
+      content:
+        application/json:
+          schema:
+            $ref: ../schemas/users.yaml
+
+    204:
+      description: Пользователи отсутствуют
+    401:
+      $ref: ../responses/_index.yaml#/401
+    403:
+      $ref: ../responses/_index.yaml#/403
