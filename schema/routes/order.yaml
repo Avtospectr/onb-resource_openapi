@@ -1,0 +1,35 @@
+parameters:
+  - $ref: "../parameters/orderId.yaml"
+
+patch:
+  tags:
+    - Заказы
+  summary: Обновить данные о заказе
+  description: Обновляет информацию о заказе
+  operationId: patchOrder
+  security:
+    - OTPSchema: []
+
+  requestBody:
+    description: Updating order
+    required: true
+    content:
+      "application/json":
+        schema:
+          $ref: ../schemas/order.patch.yaml
+        example:
+          $ref: ../examples/order.patch.yaml
+  responses:
+    200:
+      description: An order to be returned
+      content:
+        application/json:
+          schema:
+            $ref: "../schemas/order.yaml"
+
+    401:
+      $ref: ../responses/_index.yaml#/401
+    403:
+      $ref: ../responses/_index.yaml#/403
+    404:
+      $ref: ../responses/_index.yaml#/404

@@ -68,6 +68,9 @@ paths:
   /order:
     $ref: routes/orders.yaml
 
+  /order/{id}:
+    $ref: routes/order.yaml
+
   /geo/suggestions:
     $ref: routes/geo.suggestions.yaml
 

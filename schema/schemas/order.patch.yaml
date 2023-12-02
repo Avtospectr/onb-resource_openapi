@@ -1,0 +1,30 @@
+# Schema for Order object
+allOf:
+  - type: object
+    properties:
+      status:
+        type: string
+        enum: [created, pending, in_delivery, canceled, finished]
+        description: Статус заказа
+        example: created
+      payment:
+        type: string
+        enum: [pending, approved, declined]
+        description: Статус оплаты
+        example: pending
+      delivery:
+        type: object
+        properties:
+          link:
+            type: string
+            description: Ссылка на отслеживание посылки
+            example: https://www.cdek.ru/ru/tracking/?order_id=123
+          courier:
+            type: string
+            description: Курьерская служба
+            example: CDEK
+          tracking_number:
+            type: string
+            description: Трек номер
+            example: 123
+  - $ref: order.partial.yaml
